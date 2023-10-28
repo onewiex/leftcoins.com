@@ -1,0 +1,45 @@
+<svg width="609" height="283" viewBox="0 0 609 283" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_1_9218" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="609" height="284">
+<rect x="609" y="283" width="609" height="283" transform="rotate(180 609 283)" fill="url(#paint0_radial_1_9218)"/>
+</mask>
+<g mask="url(#mask0_1_9218)">
+<rect x="413" y="282" width="59" height="59" rx="18" transform="rotate(180 413 282)" fill="#212746"/>
+<rect x="472" y="282" width="59" height="59" rx="18" transform="rotate(180 472 282)" fill="#212746"/>
+<rect x="531" y="282" width="59" height="59" rx="18" transform="rotate(180 531 282)" fill="#212746"/>
+<rect x="354" y="282" width="59" height="59" rx="18" transform="rotate(180 354 282)" fill="#212746"/>
+<rect x="295" y="282" width="59" height="59" rx="18" transform="rotate(180 295 282)" fill="#212746"/>
+<rect x="295" y="341" width="59" height="59" rx="18" transform="rotate(180 295 341)" fill="#212746"/>
+<rect x="354" y="341" width="59" height="59" rx="18" transform="rotate(180 354 341)" fill="#212746"/>
+<rect x="413" y="341" width="59" height="59" rx="18" transform="rotate(180 413 341)" fill="#212746"/>
+<rect x="236" y="341" width="59" height="59" rx="18" transform="rotate(180 236 341)" fill="#212746"/>
+<rect x="295" y="223" width="59" height="59" rx="18" transform="rotate(180 295 223)" fill="#212746"/>
+<rect x="295" y="164" width="59" height="59" rx="18" transform="rotate(180 295 164)" fill="#212746"/>
+<rect x="295" y="105" width="59" height="59" rx="18" transform="rotate(180 295 105)" fill="#212746"/>
+<rect x="354" y="105" width="59" height="59" rx="18" transform="rotate(180 354 105)" fill="#212746"/>
+<rect x="354" y="46.0005" width="59" height="59" rx="18" transform="rotate(180 354 46.0005)" fill="#212746"/>
+<rect x="236" y="223" width="59" height="59" rx="18" transform="rotate(180 236 223)" fill="#212746"/>
+<rect x="236" y="164" width="59" height="59" rx="18" transform="rotate(180 236 164)" fill="#212746"/>
+<rect x="177" y="164" width="59" height="59" rx="18" transform="rotate(180 177 164)" fill="#212746"/>
+<rect x="118" y="164" width="59" height="59" rx="18" transform="rotate(180 118 164)" fill="#212746"/>
+<rect x="59" y="164" width="59" height="59" rx="18" transform="rotate(180 59 164)" fill="#212746"/>
+<rect x="118" y="105" width="59" height="59" rx="18" transform="rotate(180 118 105)" fill="#212746"/>
+<rect x="118" y="223" width="59" height="59" rx="18" transform="rotate(180 118 223)" fill="#212746"/>
+<rect x="118" y="282" width="59" height="59" rx="18" transform="rotate(180 118 282)" fill="#212746"/>
+<rect x="59" y="282" width="59" height="59" rx="18" transform="rotate(180 59 282)" fill="#212746"/>
+<rect x="59" y="341" width="59" height="59" rx="18" transform="rotate(180 59 341)" fill="#212746"/>
+<rect x="177" y="223" width="59" height="59" rx="18" transform="rotate(180 177 223)" fill="#212746"/>
+<rect x="354" y="223" width="59" height="59" rx="18" transform="rotate(180 354 223)" fill="#212746"/>
+<rect x="354" y="164" width="59" height="59" rx="18" transform="rotate(180 354 164)" fill="#212746"/>
+<rect x="472" y="164" width="59" height="59" rx="18" transform="rotate(180 472 164)" fill="#212746"/>
+<rect x="531" y="105" width="59" height="59" rx="18" transform="rotate(180 531 105)" fill="#212746"/>
+<rect x="531" y="164" width="59" height="59" rx="18" transform="rotate(180 531 164)" fill="#212746"/>
+<rect x="413" y="164" width="59" height="59" rx="18" transform="rotate(180 413 164)" fill="#212746"/>
+<rect x="413" y="105" width="59" height="59" rx="18" transform="rotate(180 413 105)" fill="#212746"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_1_9218" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(913.5 424.501) rotate(89.8248) scale(187.501 403.486)">
+<stop stop-color="#D9D9D9"/>
+<stop offset="1" stop-color="#D9D9D9" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

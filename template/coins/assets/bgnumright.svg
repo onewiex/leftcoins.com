@@ -1,0 +1,49 @@
+<svg width="561" height="531" viewBox="0 0 561 531" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_1_9126" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="649" height="531">
+<rect y="531" width="531" height="649" transform="rotate(-90 0 531)" fill="url(#paint0_radial_1_9126)"/>
+</mask>
+<g mask="url(#mask0_1_9126)">
+<rect x="177" y="413" width="59" height="59" rx="18" transform="rotate(-90 177 413)" fill="#1A203D"/>
+<rect x="177" y="472" width="59" height="59" rx="18" transform="rotate(-90 177 472)" fill="#1A203D"/>
+<rect x="177" y="531" width="59" height="59" rx="18" transform="rotate(-90 177 531)" fill="#1A203D"/>
+<rect x="177" y="354" width="59" height="59" rx="18" transform="rotate(-90 177 354)" fill="#1A203D"/>
+<rect x="177" y="295" width="59" height="59" rx="18" transform="rotate(-90 177 295)" fill="#1A203D"/>
+<rect x="118" y="295" width="59" height="59" rx="18" transform="rotate(-90 118 295)" fill="#1A203D"/>
+<rect x="118" y="354" width="59" height="59" rx="18" transform="rotate(-90 118 354)" fill="#1A203D"/>
+<rect x="118" y="413" width="59" height="59" rx="18" transform="rotate(-90 118 413)" fill="#1A203D"/>
+<rect x="118" y="236" width="59" height="59" rx="18" transform="rotate(-90 118 236)" fill="#1A203D"/>
+<rect x="59" y="295" width="59" height="59" rx="18" transform="rotate(-90 59 295)" fill="#1A203D"/>
+<rect x="59" y="354" width="59" height="59" rx="18" transform="rotate(-90 59 354)" fill="#1A203D"/>
+<rect y="354" width="59" height="59" rx="18" transform="rotate(-90 0 354)" fill="#1A203D"/>
+<rect y="413" width="59" height="59" rx="18" transform="rotate(-90 0 413)" fill="#1A203D"/>
+<rect x="236" y="295" width="59" height="59" rx="18" transform="rotate(-90 236 295)" fill="#1A203D"/>
+<rect x="295" y="295" width="59" height="59" rx="18" transform="rotate(-90 295 295)" fill="#1A203D"/>
+<rect x="354" y="295" width="59" height="59" rx="18" transform="rotate(-90 354 295)" fill="#1A203D"/>
+<rect x="354" y="354" width="59" height="59" rx="18" transform="rotate(-90 354 354)" fill="#1A203D"/>
+<rect x="413" y="354" width="59" height="59" rx="18" transform="rotate(-90 413 354)" fill="#1A203D"/>
+<rect x="472" y="354" width="59" height="59" rx="18" transform="rotate(-90 472 354)" fill="#1A203D"/>
+<rect x="472" y="295" width="59" height="59" rx="18" transform="rotate(-90 472 295)" fill="#1A203D"/>
+<rect x="531" y="295" width="59" height="59" rx="18" transform="rotate(-90 531 295)" fill="#1A203D"/>
+<rect x="236" y="236" width="59" height="59" rx="18" transform="rotate(-90 236 236)" fill="#1A203D"/>
+<rect x="295" y="236" width="59" height="59" rx="18" transform="rotate(-90 295 236)" fill="#1A203D"/>
+<rect x="295" y="177" width="59" height="59" rx="18" transform="rotate(-90 295 177)" fill="#1A203D"/>
+<rect x="295" y="118" width="59" height="59" rx="18" transform="rotate(-90 295 118)" fill="#1A203D"/>
+<rect x="295" y="59" width="59" height="59" rx="18" transform="rotate(-90 295 59)" fill="#1A203D"/>
+<rect x="354" y="118" width="59" height="59" rx="18" transform="rotate(-90 354 118)" fill="#1A203D"/>
+<rect x="236" y="118" width="59" height="59" rx="18" transform="rotate(-90 236 118)" fill="#1A203D"/>
+<rect x="177" y="118" width="59" height="59" rx="18" transform="rotate(-90 177 118)" fill="#1A203D"/>
+<rect x="177" y="59" width="59" height="59" rx="18" transform="rotate(-90 177 59)" fill="#1A203D"/>
+<rect x="118" y="59" width="59" height="59" rx="18" transform="rotate(-90 118 59)" fill="#1A203D"/>
+<rect x="236" y="177" width="59" height="59" rx="18" transform="rotate(-90 236 177)" fill="#1A203D"/>
+<rect x="236" y="354" width="59" height="59" rx="18" transform="rotate(-90 236 354)" fill="#1A203D"/>
+<rect x="295" y="354" width="59" height="59" rx="18" transform="rotate(-90 295 354)" fill="#1A203D"/>
+<rect x="295" y="413" width="59" height="59" rx="18" transform="rotate(-90 295 413)" fill="#1A203D"/>
+<rect x="354" y="413" width="59" height="59" rx="18" transform="rotate(-90 354 413)" fill="#1A203D"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_1_9126" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(265.5 855.5) rotate(90.0855) scale(335 274.091)">
+<stop stop-color="#D9D9D9"/>
+<stop offset="1" stop-color="#D9D9D9" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

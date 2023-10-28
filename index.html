@@ -1,0 +1,2496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <base href="http://127.0.0.1:5500/" />
+  <title>Leftcoins</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="stylesheet" href="template/coins/css/build/site/styles/libs.css" />
+  <link rel="stylesheet" href="template/coins/css/build/site/styles/styles-home.css" />
+  <link rel="stylesheet" href="template/coins/css/build/site/styles/styles-layout.css" />
+  <script type="text/javascript" src="template/coins/js/build/site/scripts-animate.js"></script>
+  <script src="template/coins/js/form_validators_min.js"></script>
+  <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+</head>
+
+<body>
+  <div class="body">
+    <header class="header with-animation">
+      <div class="container">
+        <div class="header__row">
+          <div class="header__container">
+            <nav class="navbar header__navbar">
+              <div class="header__rs">
+                <a class="logo header__logo" href="/"></a>
+                <div class="dropdown nav-item header__dropdown">
+                  <a class="btn btn-secondary icon icon_en header__dropdown-item" type="button" id="dropdownMenuButton1"
+                    aria-expanded="false">
+                    English
+                  </a>
+                  <!-- <ul
+                      class="dropdown-menu dropdown-menu__lang dropdown-menu__lang-select"
+                      aria-labelledby="dropdownMenuButton1"
+                    >
+                      <div class="lang__icons-left">
+                        <li>
+                          <a
+                            class="dropdown-item icon icon_de header__dropdown-item"
+                            href="/change/language/de"
+                            >Deutsch</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item icon icon_en header__dropdown-item"
+                            href="/change/language/en"
+                            >English</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item icon icon_fr header__dropdown-item"
+                            href="/change/language/fr"
+                            >Français</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item icon icon_es header__dropdown-item"
+                            href="/change/language/es"
+                            >Español</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item icon icon_it header__dropdown-item"
+                            href="/change/language/it"
+                            >Italiano</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item icon icon_pt header__dropdown-item"
+                            href="/change/language/pt"
+                            >Português</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item icon icon_tr header__dropdown-item"
+                            href="/change/language/tr"
+                            >Turkish</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item icon icon_ru header__dropdown-item"
+                            href="/change/language/ru"
+                            >Русский</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item icon icon_ar header__dropdown-item"
+                            href="/change/language/ar"
+                            >عربي</a
+                          >
+                        </li>
+                      </div>
+                      <div class="lang__icons-right">
+                        <li>
+                          <a
+                            class="dropdown-item icon icon_cn header__dropdown-item"
+                            href="/change/language/cn"
+                            >中国人</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item icon icon_th header__dropdown-item"
+                            href="/change/language/th"
+                            >ภาษาไทย</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item icon icon_fa header__dropdown-item"
+                            href="/change/language/fa"
+                            >فارسی</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item icon icon_vn header__dropdown-item"
+                            href="/change/language/vn"
+                            >Tiếng Việt</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item icon icon_hi header__dropdown-item"
+                            href="/change/language/hi"
+                            >हिंदी</a
+                          >
+                        </li>
+                        <li>
+                          <span
+                            class="dropdown-item icon icon_ja header__dropdown-item header__dropdown-item_disabled"
+                            >日本語</span
+                          >
+                        </li>
+                        <li>
+                          <span
+                            class="dropdown-item icon icon_zh header__dropdown-item header__dropdown-item_disabled"
+                            >繁體中文</span
+                          >
+                        </li>
+                        <li>
+                          <span
+                            class="dropdown-item icon icon_ro header__dropdown-item header__dropdown-item_disabled"
+                            >Română</span
+                          >
+                        </li>
+                        <li>
+                          <span
+                            class="dropdown-item icon icon_ko header__dropdown-item header__dropdown-item_disabled"
+                            >한국어</span
+                          >
+                        </li>
+                      </div>
+                    </ul> -->
+                </div>
+              </div>
+              <button class="header__btn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"></button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="header__nav">
+                  <li class="header__item dropdown with-animation__up header__item_hide-mob" data-delay="0">
+                    <a class="nav-link dropdown-toggle header__link" href="#" id="navbarDarkDropdownMenuLink"
+                      role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Company
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                      <li class="header__li">
+                        <div class="dropdown-menu__block">
+                          <a href="/about" class="dropdown-menu__block-link about">About us</a>
+                          <p class="dropdown-menu__par">Who are we?</p>
+                        </div>
+                      </li>
+                      <li class="header__li">
+                        <div class="dropdown-menu__block">
+                          <a href="/about#technologies" class="dropdown-menu__block-link tech">Technologies</a>
+                          <p class="dropdown-menu__par">Our Tools</p>
+                        </div>
+                      </li>
+                      <li class="header__li">
+                        <div class="dropdown-menu__block">
+                          <a href="/about#roadmap" class="dropdown-menu__block-link roadmaps">Roadmap</a>
+                          <p class="dropdown-menu__par">Our plans</p>
+                        </div>
+                      </li>
+                      <li class="header__li">
+                        <div class="dropdown-menu__block">
+                          <a href="/about#statistics" class="dropdown-menu__block-link statistic">Statistics</a>
+                          <p class="dropdown-menu__par">Numbers and facts</p>
+                        </div>
+                      </li>
+                      <li class="header__li">
+                        <div class="dropdown-menu__block">
+                          <a href="/about#our-team" class="dropdown-menu__block-link team">Team</a>
+                          <p class="dropdown-menu__par">Our specialists</p>
+                        </div>
+                      </li>
+                      <li class="header__li">
+                        <div class="dropdown-menu__block">
+                          <a href="/about#reviews" class="dropdown-menu__block-link reviews">Reviews</a>
+                          <p class="dropdown-menu__par">
+                            What they say about us
+                          </p>
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="header__item with-animation__up with-animation__up_02 header__item_hide">
+                    <a class="header__link" href="/about"> Company </a>
+                  </li>
+                  <li class="header__item with-animation__up with-animation__up_02">
+                    <a class="header__link" href="/investments">
+                      Investments
+                    </a>
+                  </li>
+                  <li class="header__item with-animation__up with-animation__up_04">
+                    <a class="header__link" href="/partners"> Partners </a>
+                  </li>
+                  <li class="header__item with-animation__up with-animation__up_06">
+                    <a class="header__link" href="/faq"> FAQ</a>
+                  </li>
+                  <li class="header__item header__item3 with-animation__up with-animation__up_08">
+                    <a class="header__link" href="/news"> News </a>
+                  </li>
+                  <li class="header__item header__item1 with-animation__up with-animation__up_1" data-delay="1s">
+                    <a class="header__link" href="/feed"> Contacts </a>
+                  </li>
+                </ul>
+                <div class="site-mob-menu">
+                  <div class="site-mob-menu__items">
+                    <a href="/about" class="site-mob-menu__item"> Company </a>
+                    <a href="/investments" class="site-mob-menu__item">
+                      Investments
+                    </a>
+                    <a href="/partners" class="site-mob-menu__item">
+                      Partners
+                    </a>
+                    <a href="/faq" class="site-mob-menu__item"> FAQ </a>
+                    <a href="/news" class="site-mob-menu__item"> News </a>
+                    <a href="/feed" class="site-mob-menu__item"> Contacts </a>
+                  </div>
+                  <div class="site-mob-menu__btns">
+                    <a href="/auth/signup" class="site-mob-menu__btn site-mob-menu__btn_bg">
+                      Registration
+                    </a>
+                    <a href="/auth/login" class="site-mob-menu__btn site-mob-menu__btn_framed">
+                      Login
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <ul class="header__nav header__nav_auth">
+                <li class="header__item header__item2 with-animation__up with-animation__up_12" data-delay="1.2s">
+                  <a href="/auth/login" class="button__login icon icon_log-in">
+                    Login
+                  </a>
+                </li>
+                <li class="header__item with-animation__up with-animation__up_14" data-delay="1.4s">
+                  <a href="/auth/signup" class="header__button button button_grey">
+                    Registration
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="header__contacts with-animation__up with-animation__up_16">
+        <div class="header__line"></div>
+        <div class="header__wid">
+          <div class="trustpilot-widget" data-locale="en-GB" data-template-id="5419b6a8b0d04a076446a9ad"
+            data-businessunit-id="6492d1fa9c7e619727eefb4a" data-style-height="24px" data-style-width="100%"
+            data-theme="light" data-min-review-count="10" data-without-reviews-preferred-string-id="2"
+            data-style-alignment="center">
+            <a href="https://uk.trustpilot.com/review/leftcoins.com" target="_blank" rel="noopener"></a>
+          </div>
+        </div>
+        <div class="header__contacts_row">
+          <p class="header__contacts-par">Social media</p>
+          <div class="header__contacts-links">
+            <div class="dropdown nav-item header__dropdown icon__dropdown">
+              <a class="btn btn-secondary dropdown-toggle dropdown-toggle__icon header__ladel icon icon_tel"
+                type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              </a>
+              <div class="dropdown-menu dropdown-menu__lang dropdown-menu__icon dropdown-menu__communities"
+                aria-labelledby="dropdownMenuButton1">
+                <div class="drop__bg drop__bg_light">
+                  <h4 class="dropdown-item__title">Channel</h4>
+                  <a class="dropdown-item icon icon_en header__dropdown-item" href="https://t.me/+p3H5OpUvxNhlZGUx"
+                    target="_blank">Leftcoins Official Channel</a>
+                </div>
+                <div class="drop__bg drop__bg1 drop__bg_light">
+                  <h4 class="dropdown-item__title">Communities</h4>
+                  <div class="row row_groups">
+                    <ul class="col-md-6">
+                      <li>
+                        <a class="dropdown-item icon icon_en header__dropdown-item" href="https://t.me/leftcoins_en"
+                          target="_blank">English group</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item icon icon_de header__dropdown-item" href="https://t.me/leftcoins_de"
+                          target="_blank">Deutsche Gruppe</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item icon icon_fr header__dropdown-item" href="https://t.me/leftcoins_fr"
+                          target="_blank">Groupe français</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item icon icon_es header__dropdown-item" href="https://t.me/leftcoins_esp"
+                          target="_blank">Grupo español</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item icon icon_it header__dropdown-item" href="https://t.me/leftcoins_ita"
+                          target="_blank">
+                          Gruppo italiano
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item icon icon_pt header__dropdown-item" href="https://t.me/leftcoins_pt"
+                          target="_blank">
+                          Grupo português
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item icon icon_tr header__dropdown-item" href="https://t.me/leftcoins_tr"
+                          target="_blank">
+                          Türk grubu
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="col-md-6">
+                      <li>
+                        <a class="dropdown-item icon icon_ru header__dropdown-item" href="https://t.me/leftcoins_ru"
+                          target="_blank">Русская группа</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item icon icon_ar header__dropdown-item" href="https://t.me/leftcoins_ar"
+                          target="_blank">المجموعة العربية</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item icon icon_cn header__dropdown-item" href="https://t.me/leftcoins_cn"
+                          target="_blank">华人组</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item icon icon_th header__dropdown-item" href="https://t.me/leftcoins_th"
+                          target="_blank">กลุ่มคนไทย</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item icon icon_fa header__dropdown-item" href="https://t.me/leftcoins_fa"
+                          target="_blank">گروه فارسی</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item icon icon_vn header__dropdown-item" href="https://t.me/leftcoins_vn"
+                          target="_blank">Nhóm việt nam</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item icon icon_hi header__dropdown-item" href="https://t.me/leftcoins_in"
+                          target="_blank">भारतीय समूह</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="drop__bg drop__bg1 drop__bg_light">
+                  <h4 class="dropdown-item__title">Support</h4>
+                  <div class="row">
+                    <ul class="col-md-6">
+                      <li>
+                        <a class="dropdown-item icon icon_supp header__dropdown-item" href="https://t.me/leftcoins"
+                          target="_blank">
+                          Roger support
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="col-md-6">
+                      <li>
+                        <a class="dropdown-item icon icon_en header__dropdown-item" href="https://t.me/leftcoins_bk"
+                          target="_blank">
+                          Bruce support
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="https://chat.whatsapp.com/E71F7lCPJCP1X7CcDi9awk " class="header__ladel icon icon_wa"
+              target="_blank"></a>
+            <a href="https://twitter.com/leftcoinscom" class="header__ladel icon icon_tw" target="_blank"></a>
+            <a href="https://www.youtube.com/@leftcoins" class="header__ladel icon icon_yout" target="_blank"></a>
+            <a href="https://www.linkedin.com/company/leftcoins" class="header__ladel icon icon_linkedin"
+              target="_blank"></a>
+            <a href="https://medium.com/@leftcoins" class="header__ladel icon icon_md" target="_blank"></a>
+          </div>
+        </div>
+        <div class="header__line header__line1"></div>
+      </div>
+    </header>
+    <div class="content">
+      <div class="header__preview with-animation">
+        <video id="background-video" class="background-video video-bg video-bg_main lazy" preload="none" loop=""
+          muted="" poster="template/coins/assets/main_screen_video_l.png">
+          <source src="template/coins/assets/media/Main_animation.mp4" type="video/mp4" />
+        </video>
+        <h1 class="header__title with-animation__up with-animation__up_18 header__title_en">
+          Make up to <span class="span header__title">4.7% daily ROI</span>
+          <br class="br" />on electronic wallets unlocking
+        </h1>
+        <p class="header__par with-animation__up with-animation__up_20">
+          Invest in abandoned e-wallets unlock software
+        </p>
+        <div class="header__buttons with-animation__up with-animation__up_22">
+          <a href="/auth/signup" class="preview__button button button__blue">Start earning</a>
+          <a href="https://youtu.be/WEQFnQPvor8" class="preview__button-video button button_grey" target="_blank">
+            Video introduction
+          </a>
+        </div>
+        <div class="header__img"></div>
+      </div>
+      <div class="info">
+        <div class="info__top with-animation">
+          <div class="info__top-bgimg">
+            <div class="info__top-bgimg_right">
+              <div class="info__top-bgimg_rectangle"></div>
+              <div class="info__top-bgimg_corner corner-right"></div>
+            </div>
+            <div class="info__top-bgimg_left">
+              <div class="info__top-bgimg_corner corner-left"></div>
+              <div class="info__top-bgimg_rectangle"></div>
+            </div>
+          </div>
+          <div class="info__top-bg">
+            <h2 class="info__title with-animation__up">
+              The value of assets on abandoned electronic wallets is estimated
+              at $140 billion dollars
+            </h2>
+            <p class="info__par with-animation__up with-animation__up_02">
+              We have developed software to search for abandonec electronic
+              wallets and get access keys to them. All work is carried out on
+              the company's servers, which ensures the security and speed of
+              data processing. Our servers select up to 1,000,000 key options
+              per minute, which allows you to access them efficiently and
+              quickly.
+            </p>
+            <div class="info__cards-scroll">
+              <div class="info__cards">
+                <div class="with-animation__up with-animation__up_04">
+                  <div class="info__card">
+                    <p class="info__card-par step-one">STEP 1</p>
+                    <div class="info__card-img search"></div>
+                    <h3 class="info__card-title">
+                      Looking for abandoned wallets
+                    </h3>
+                  </div>
+                </div>
+                <div class="with-animation__up with-animation__up_06">
+                  <div class="info__card">
+                    <p class="info__card-par step-two">STEP 2</p>
+                    <div class="info__card-img money"></div>
+                    <h3 class="info__card-title">
+                      Selection high balance wallets
+                    </h3>
+                  </div>
+                </div>
+                <div class="with-animation__up with-animation__up_08">
+                  <div class="info__card">
+                    <p class="info__card-par step-three">STEP 3</p>
+                    <div class="info__card-img keys"></div>
+                    <h3 class="info__card-title">Secret keys matching</h3>
+                  </div>
+                </div>
+                <div class="with-animation__up with-animation__up_1">
+                  <div class="info__card">
+                    <p class="info__card-par step-four">STEP 4</p>
+                    <div class="info__card-img profitt"></div>
+                    <h3 class="info__card-title">Providing profit</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block with-animation">
+          <div class="info__block with-animation__up">
+            <div class="info__block-left">
+              <div class="company-switch">
+                <input type="radio" name="company-switch" value="au" id="au" checked=""
+                  data-link="https://connectonline.asic.gov.au/RegistrySearch/faces/landing/SearchRegisters.jspx?_adf.ctrl-state=a1fye675l_36"
+                  data-number="664701740"
+                  data-text="Our company is officially registered in Australia and has all the necessary documents" />
+                <label class="company-switch__btn company-switch__btn_au" for="au">AU</label>
+                <input type="radio" name="company-switch" value="en" id="en"
+                  data-link="https://www.gov.uk/get-information-about-a-company" data-number="15158062"
+                  data-text="Our company is officially registered in UK and has all the necessary documents." />
+                <label class="company-switch__btn company-switch__btn_en" for="en">EN</label>
+              </div>
+              <div class="info__block-logo"></div>
+              <div class="info__block-par">
+                Our company is officially registered in Australia and has all
+                the necessary documents
+              </div>
+              <div class="info__block-icon"></div>
+              <p class="info__block-text">Registry number</p>
+              <p class="info__block-num">664701740</p>
+              <a class="preview__button preview__button1 button button__blue"
+                href="https://connectonline.asic.gov.au/RegistrySearch/faces/landing/SearchRegisters.jspx?_adf.ctrl-state=a1fye675l_36"
+                target="_blank">
+                Check the data
+              </a>
+            </div>
+            <div class="info__block-right video-frame-wrap">
+              <iframe class="video-frame" width="560" height="315"
+                data-src="https://www.youtube.com/embed/WEQFnQPvor8?rel=0&autoplay=1" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+              <div class="info__block-play">
+                <img src="template/coins/assets/triangleblue.png" class="info__block-playimg" />
+              </div>
+              <div class="info__block-video">
+                <p class="info__block-paragraf">
+                  Watch a video about the company
+                </p>
+                <span class="span__time">3:46</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="info__bottom with-animation">
+          <div class="info__bottom-line with-animation__up">
+            <div class="header__line info__line"></div>
+            <p class="info__bottom-par">MASS MEDIA</p>
+            <div class="header__line info__line"></div>
+          </div>
+          <div class="media">
+            <div class="media__row">
+              <div class="media__item with-animation__up with-animation__up_02">
+                <a href="https://finance.yahoo.com/cryptocurrencies/leftcoins-introduces-innovative-software-transform-113000398.html"
+                  target="_blank">
+                  <img src="template/coins/assets/yahoo_finance.png" alt=" " />
+                </a>
+              </div>
+              <div class="media__item with-animation__up with-animation__up_04">
+                <a href="https://www.bloomberg.com/press-releases/2023-08-21/leftcoins-introduces-innovative-software-to-transform-crypto-wallet-recovery"
+                  target="_blank">
+                  <img src="template/coins/assets/logoBBGwht.png" alt=" " />
+                </a>
+              </div>
+              <div class="media__item with-animation__up with-animation__up_06">
+                <a href="https://www.marketwatch.com/press-release/leftcoins-introduces-innovative-software-to-transform-crypto-wallet-recovery-9dabacad?mod=search_headline"
+                  target="_blank">
+                  <img src="template/coins/assets/marketwatch.png" alt=" " />
+                </a>
+              </div>
+              <div class="media__item with-animation__up with-animation__up_08">
+                <a href="https://apnews.com/press-release/marketersmedia/software-fb4650c18458b8fb17b4da34d3d250e4"
+                  target="_blank">
+                  <img src="template/coins/assets/Associated_Press.png" alt=" " />
+                </a>
+              </div>
+            </div>
+            <div class="media__row">
+              <div class="media__item with-animation__up with-animation__up_12">
+                <a href="https://www.benzinga.com/pressreleases/23/07/33412482/leftcoins-earns-by-using-its-own-software-to-find-abandoned-wallets"
+                  target="_blank">
+                  <img src="template/coins/assets/benzinga-seeklogo.png" alt=" " />
+                </a>
+              </div>
+              <div class="media__item with-animation__up with-animation__up_14">
+                <a href="https://www.digitaljournal.com/pr/news/binary-news-network/leftcoins-helps-to-earn-by-using-its-own-software-to-find-abandoned-wallets"
+                  target="_blank">
+                  <img src="template/coins/assets/Digital-Journal.png" alt=" " />
+                </a>
+              </div>
+              <div class="media__item with-animation__up with-animation__up_16">
+                <a href="https://www.morningstar.com/news/accesswire/770857msn/leftcoins-introduces-innovative-software-to-transform-crypto-wallet-recovery"
+                  target="_blank">
+                  <img src="template/coins/assets/morningstar.png" alt=" " />
+                </a>
+              </div>
+              <div class="media__item with-animation__up with-animation__up_1">
+                <a href="https://markets.businessinsider.com/news/stocks/leftcoins-introduces-innovative-software-to-transform-crypto-wallet-recovery-1032571325"
+                  target="_blank">
+                  <img src="template/coins/assets/Business_Insider.png" alt=" " />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="servers servers_main">
+        <div class="servers__block with-animation">
+          <div class="servers__block-text">
+            <div class="servers__block-title with-animation__up">
+              Invest <span class="span"> and earn! </span>
+            </div>
+            <div class="servers__block-par servers__block-par_left with-animation__up with-animation__up_02">
+              We offer a unique opportunity to invest in the company's
+              activities and start earning up to
+              <span class="span">4.7% profit daily.</span> You have an
+              opportunity invest in a virtual or physical machine to do this,
+              and we will do the rest ourselves. Select a server below and
+              find out its profitability.
+            </div>
+          </div>
+          <div class="servers__block-line"></div>
+          <div class="servers__block-text">
+            <div class="servers__block-title with-animation__up with-animation__up_04">
+              Make <span class="span">upgrades</span>
+            </div>
+            <div class="servers__block-par with-animation__up with-animation__up_06">
+              Also, you can merge machines to make upgrades and increase
+              profitability. <br />
+              <span class="span__darck">Example:</span> You purchased five
+              VPM-0500 virtual servers, costing $500 each and bringing
+              <span class="span">2.5% daily.</span> You can merge them and
+              upgrade to a VDM-X25 server that brings
+              <span class="span">2.8% daily.</span>
+            </div>
+          </div>
+        </div>
+        <div class="block__relative">
+          <div id="calculations-block" class="block">
+            <div class="sersers__culc with-animation">
+              <div class="sersers__culc-left">
+                <div class="sersers__culc-block with-animation__up">
+                  <p class="sersers__culc-par">
+                    VIRTUAL SERVERS /
+                    <span class="span">2.5% PROFIT PER DAY</span>
+                  </p>
+                  <div class="sersers__culc-row">
+                    <div class="form-check form-check-mar">
+                      <input class="form-check-input" type="radio" name="radio-servers" id="flexSrv-VPM-025"
+                        data-name="VPM-025" data-percent="2.50" data-price="25.00" checked />
+                      <label class="sersers__culc-icons" for="flexSrv-VPM-025">
+                        <div class="sersers__culc-bg">
+                          <div class="sersers__culc-icon VPM-025"></div>
+                        </div>
+                        <p class="sersers__culc-name">VPM-025</p>
+                      </label>
+                    </div>
+                    <div class="form-check form-check-mar">
+                      <input class="form-check-input" type="radio" name="radio-servers" id="flexSrv-VPM-050"
+                        data-name="VPM-050" data-percent="2.50" data-price="50.00" />
+                      <label class="sersers__culc-icons" for="flexSrv-VPM-050">
+                        <div class="sersers__culc-bg">
+                          <div class="sersers__culc-icon VPM-050"></div>
+                        </div>
+                        <p class="sersers__culc-name">VPM-050</p>
+                      </label>
+                    </div>
+                    <div class="form-check form-check-mar">
+                      <input class="form-check-input" type="radio" name="radio-servers" id="flexSrv-VPM-0100"
+                        data-name="VPM-0100" data-percent="2.50" data-price="100.00" />
+                      <label class="sersers__culc-icons" for="flexSrv-VPM-0100">
+                        <div class="sersers__culc-bg">
+                          <div class="sersers__culc-icon VPM-0100"></div>
+                        </div>
+                        <p class="sersers__culc-name">VPM-0100</p>
+                      </label>
+                    </div>
+                    <div class="form-check form-check-mar">
+                      <input class="form-check-input" type="radio" name="radio-servers" id="flexSrv-VPM-0250"
+                        data-name="VPM-0250" data-percent="2.50" data-price="250.00" />
+                      <label class="sersers__culc-icons" for="flexSrv-VPM-0250">
+                        <div class="sersers__culc-bg">
+                          <div class="sersers__culc-icon VPM-0250"></div>
+                        </div>
+                        <p class="sersers__culc-name">VPM-0250</p>
+                      </label>
+                    </div>
+                    <div class="form-check form-check-mar">
+                      <input class="form-check-input" type="radio" name="radio-servers" id="flexSrv-VPM-0500"
+                        data-name="VPM-0500" data-percent="2.50" data-price="500.00" />
+                      <label class="sersers__culc-icons" for="flexSrv-VPM-0500">
+                        <div class="sersers__culc-bg">
+                          <div class="sersers__culc-icon VPM-0500"></div>
+                        </div>
+                        <p class="sersers__culc-name">VPM-0500</p>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="sersers__culc-block">
+                    <p class="sersers__culc-par sersers__culc-par_one">
+                      PHYSICAL SERVERS /
+                      <span class="span">2.8% - 4.7% PROFIT PER DAY</span>
+                    </p>
+                    <div class="sersers__culc-row">
+                      <div class="form-check form-check-mar">
+                        <input class="form-check-input" type="radio" name="radio-servers" id="flexSrv-VDM-X25"
+                          data-name="VDM-X25" data-percent="2.80" data-price="2500.00" />
+                        <label class="sersers__culc-icons" for="flexSrv-VDM-X25">
+                          <div class="sersers__culc-bg">
+                            <div class="sersers__culc-icon VDM-X25"></div>
+                          </div>
+                          <p class="sersers__culc-name">VDM-X25</p>
+                        </label>
+                      </div>
+                      <div class="form-check form-check-mar">
+                        <input class="form-check-input" type="radio" name="radio-servers" id="flexSrv-VDM-X50"
+                          data-name="VDM-X50" data-percent="3.00" data-price="5000.00" />
+                        <label class="sersers__culc-icons" for="flexSrv-VDM-X50">
+                          <div class="sersers__culc-bg">
+                            <div class="sersers__culc-icon VDM-X50"></div>
+                          </div>
+                          <p class="sersers__culc-name">VDM-X50</p>
+                        </label>
+                      </div>
+                      <div class="form-check form-check-mar">
+                        <input class="form-check-input" type="radio" name="radio-servers" id="flexSrv-VDM-X100"
+                          data-name="VDM-X100" data-percent="3.40" data-price="10000.00" />
+                        <label class="sersers__culc-icons" for="flexSrv-VDM-X100">
+                          <div class="sersers__culc-bg">
+                            <div class="sersers__culc-icon VDM-X100"></div>
+                          </div>
+                          <p class="sersers__culc-name">VDM-X100</p>
+                        </label>
+                      </div>
+                      <div class="form-check form-check-mar">
+                        <input class="form-check-input" type="radio" name="radio-servers" id="flexSrv-VDM-X250"
+                          data-name="VDM-X250" data-percent="3.80" data-price="25000.00" />
+                        <label class="sersers__culc-icons" for="flexSrv-VDM-X250">
+                          <div class="sersers__culc-bg">
+                            <div class="sersers__culc-icon VDM-X250"></div>
+                          </div>
+                          <p class="sersers__culc-name">VDM-X250</p>
+                        </label>
+                      </div>
+                      <div class="form-check form-check-mar">
+                        <input class="form-check-input" type="radio" name="radio-servers" id="flexSrv-VDM-X500"
+                          data-name="VDM-X500" data-percent="4.00" data-price="50000.00" />
+                        <label class="sersers__culc-icons" for="flexSrv-VDM-X500">
+                          <div class="sersers__culc-bg">
+                            <div class="sersers__culc-icon VDM-X500"></div>
+                          </div>
+                          <p class="sersers__culc-name">VDM-X500</p>
+                        </label>
+                      </div>
+                      <div class="form-check form-check-mar">
+                        <input class="form-check-input" type="radio" name="radio-servers" id="flexSrv-VDM-X750"
+                          data-name="VDM-X750" data-percent="4.30" data-price="75000.00" />
+                        <label class="sersers__culc-icons" for="flexSrv-VDM-X750">
+                          <div class="sersers__culc-bg">
+                            <div class="sersers__culc-icon VDM-X750"></div>
+                          </div>
+                          <p class="sersers__culc-name">VDM-X750</p>
+                        </label>
+                      </div>
+                      <div class="form-check form-check-mar">
+                        <input class="form-check-input" type="radio" name="radio-servers" id="flexSrv-VDM-WX1"
+                          data-name="VDM-WX1" data-percent="4.70" data-price="100000.00" />
+                        <label class="sersers__culc-icons" for="flexSrv-VDM-WX1">
+                          <div class="sersers__culc-bg">
+                            <div class="sersers__culc-icon VDM-WX1"></div>
+                          </div>
+                          <p class="sersers__culc-name">VDM-WX1</p>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="main__comp-serv with-animation__up with-animation__up_02">
+                  <p class="servers__comp-serv main__comp-serv">SERVER</p>
+                  <div class="dropdown main__dropdown">
+                    <button class="dropdown-toggle dropdown-toggle-grey dropdown-toggle-grey__main" type="button"
+                      id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      <div>
+                        <span id="selected-server-title">VPM-025 2.50</span>%
+                        in a day
+                      </div>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu__imvestment dropdown-menu__imvestment simple-bar"
+                      aria-labelledby="dropdownMenuButton1">
+                      <li>
+                        <a class="dropdown-item dropdown-item__investment" href="#" data-percent="2.50"
+                          data-name="VPM-025" data-price="25.00">
+                          VPM-025 2.50% per day
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item dropdown-item__investment" href="#" data-percent="2.50"
+                          data-name="VPM-050" data-price="50.00">
+                          VPM-050 2.50% per day
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item dropdown-item__investment" href="#" data-percent="2.50"
+                          data-name="VPM-0100" data-price="100.00">
+                          VPM-0100 2.50% per day
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item dropdown-item__investment" href="#" data-percent="2.50"
+                          data-name="VPM-0250" data-price="250.00">
+                          VPM-0250 2.50% per day
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item dropdown-item__investment" href="#" data-percent="2.50"
+                          data-name="VPM-0500" data-price="500.00">
+                          VPM-0500 2.50% per day
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item dropdown-item__investment" href="#" data-percent="2.80"
+                          data-name="VDM-X25" data-price="2500.00">
+                          VDM-X25 2.80% per day
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item dropdown-item__investment" href="#" data-percent="3.00"
+                          data-name="VDM-X50" data-price="5000.00">
+                          VDM-X50 3.00% per day
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item dropdown-item__investment" href="#" data-percent="3.40"
+                          data-name="VDM-X100" data-price="10000.00">
+                          VDM-X100 3.40% per day
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item dropdown-item__investment" href="#" data-percent="3.80"
+                          data-name="VDM-X250" data-price="25000.00">
+                          VDM-X250 3.80% per day
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item dropdown-item__investment" href="#" data-percent="4.00"
+                          data-name="VDM-X500" data-price="50000.00">
+                          VDM-X500 4.00% per day
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item dropdown-item__investment" href="#" data-percent="4.30"
+                          data-name="VDM-X750" data-price="75000.00">
+                          VDM-X750 4.30% per day
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item dropdown-item__investment" href="#" data-percent="4.70"
+                          data-name="VDM-WX1" data-price="100000.00">
+                          VDM-WX1 4.70% per day
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="sersers__culc-right with-animation__up with-animation__up_04">
+                <div class="servers__culc-column">
+                  <h2 class="servers__culc-about">
+                    Profit calculation for <br />
+                    server <span id="calc-server">VPM-025</span>
+                  </h2>
+                  <div class="servers__culc-profit">
+                    <p class="servers__culc-paragraf icon1">
+                      Investment amount
+                    </p>
+                    <p id="calc-amount" class="servers__culc-span">25.00$</p>
+                  </div>
+                  <div class="servers__culc-profit">
+                    <p class="servers__culc-paragraf icon2">Profit rate</p>
+                    <p class="servers__culc-span servers__culc-span_yellow">
+                      <span id="calc-percent">2.50</span>% per day
+                    </p>
+                  </div>
+                  <div class="servers__culc-profit">
+                    <p class="servers__culc-paragraf icon3">Daily ROI</p>
+                    <p class="servers__culc-span">
+                      <span id="calc-roi">0.62</span>$
+                    </p>
+                  </div>
+                  <div class="servers__culc-profit">
+                    <p class="servers__culc-paragraf icon4">ROI per month</p>
+                    <p class="servers__culc-span">
+                      <span id="calc-roi-month">18.60</span>$
+                    </p>
+                  </div>
+                  <div class="servers__culc-profit">
+                    <p class="servers__culc-paragraf icon6">Principal:</p>
+                    <p class="servers__culc-span">Included in profit</p>
+                  </div>
+                  <div class="servers__culc-profit">
+                    <p class="servers__culc-paragraf icon7">
+                      Profitable days
+                    </p>
+                    <p class="servers__culc-span">7 days a week</p>
+                  </div>
+                  <div class="servers__culc-profit">
+                    <p class="servers__culc-paragraf icon8">
+                      Deposit duration:
+                    </p>
+                    <p class="servers__culc-span">∞</p>
+                  </div>
+                  <a href="/auth/signup" class="servers__culc-button button__blue">Invest in server</a>
+                </div>
+                <div class="servers__culc-images">
+                  <div id="selected-server-img" class="servers__culc-img"></div>
+                  <div class="servers__culc-im"></div>
+                </div>
+              </div>
+            </div>
+            <div class="block block-comp with-animation">
+              <div class="servers__comp with-animation__up">
+                <div class="servers__comp-left">
+                  <div class="servers__comp-title">
+                    Compounding indicators <br />
+                    for the server <span id="calc-server-comp">VPM-025</span>
+                  </div>
+                  <p class="servers__comp-par">
+                    Compounding automatically reinvests profit partially or
+                    entirely due to your setup and increases profit
+                  </p>
+                  <div class="slider">
+                    <p class="slider__num">
+                      Compounding rate
+                      <span id="compounding-data" class="slider__num-max" data-val="30" data-sum="25.00"
+                        data-percent="2.50">
+                        30%
+                      </span>
+                    </p>
+                    <div class="slider__blue" id="slider-main"></div>
+                  </div>
+                </div>
+                <div id="basic-calculator" class="servers__comp-right">
+                  <div class="servers__comp-cards">
+                    <div class="servers__comp-column">
+                      <div class="servers__comp-card">
+                        <h3 class="servers__comp-card_title">15th day</h3>
+                        <div class="servers__culc-profit">
+                          <p class="servers__culc-paragraf icon6">
+                            Principal value
+                          </p>
+                          <p class="servers__culc-span servers__culc-span_dark">
+                            <span id="dep-15">...</span>$
+                          </p>
+                        </div>
+                        <div class="servers__culc-profit">
+                          <p class="servers__culc-paragraf icon3">
+                            Daily ROI
+                          </p>
+                          <p class="servers__culc-span servers__culc-span_blue">
+                            <span id="roi-15">...</span>$
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="servers__comp-column">
+                      <div class="servers__comp-card">
+                        <h3 class="servers__comp-card_title">30th day</h3>
+                        <div class="servers__culc-profit">
+                          <p class="servers__culc-paragraf icon6">
+                            Principal value
+                          </p>
+                          <p class="servers__culc-span servers__culc-span_dark">
+                            <span id="dep-30">...</span>$
+                          </p>
+                        </div>
+                        <div class="servers__culc-profit">
+                          <p class="servers__culc-paragraf icon3">
+                            Daily ROI
+                          </p>
+                          <p class="servers__culc-span servers__culc-span_blue">
+                            <span id="roi-30">...</span>$
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="servers__comp-column">
+                      <div class="servers__comp-card">
+                        <h3 class="servers__comp-card_title">60th day</h3>
+                        <div class="servers__culc-profit">
+                          <p class="servers__culc-paragraf icon6">
+                            Principal value
+                          </p>
+                          <p class="servers__culc-span servers__culc-span_dark">
+                            <span id="dep-60">...</span>$
+                          </p>
+                        </div>
+                        <div class="servers__culc-profit">
+                          <p class="servers__culc-paragraf icon3">
+                            Daily ROI
+                          </p>
+                          <p class="servers__culc-span servers__culc-span_blue">
+                            <span id="roi-60">...</span>$
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="servers__comp-column">
+                      <div class="servers__comp-card servers__comp-card_yellow">
+                        <h3 class="servers__comp-card_title">120th day</h3>
+                        <div class="servers__culc-profit">
+                          <p class="servers__culc-paragraf servers__culc-paragraf_final icon6">
+                            Principal value
+                          </p>
+                          <p class="servers__culc-span servers__culc-span_dark">
+                            <span id="dep-120">...</span>$
+                          </p>
+                        </div>
+                        <div class="servers__culc-profit">
+                          <p class="servers__culc-paragraf servers__culc-paragraf_final icon3">
+                            Daily ROI
+                          </p>
+                          <p class="servers__culc-span servers__culc-span_blue">
+                            <span id="roi-120">...</span>$
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="servers__comp-coinsm coin_down with-animation__up with-animation__up_02"></div>
+                  <div class="servers__comp-coin coin_up with-animation__up with-animation__up_04"></div>
+                </div>
+              </div>
+            </div>
+            <div class="servers__prpofit with-animation">
+              <div class="servers__prpofit-box with-animation__up">
+                <div class="servers__prpofit-img img1"></div>
+                <div class="servers__prpofit-text">
+                  <h3 class="servers__prpofit-title">Buying a server</h3>
+                  <p class="servers__prpofit-par">
+                    Servers cost from $25 to $100,000. The more expensive the
+                    server, the higher the yield on the deposit
+                  </p>
+                </div>
+              </div>
+              <div class="servers__prpofit-box with-animation__up with-animation__up_02">
+                <div class="servers__prpofit-img img2"></div>
+                <div class="servers__prpofit-text">
+                  <h3 class="servers__prpofit-title">Making profit</h3>
+                  <p class="servers__prpofit-par">
+                    Your server brings profit every day for an unlimited
+                    period since you buy it as you purchase it
+                  </p>
+                </div>
+              </div>
+              <div class="servers__prpofit-box with-animation__up with-animation__up_04">
+                <div class="servers__prpofit-img img3"></div>
+                <div class="servers__prpofit-text">
+                  <h3 class="servers__prpofit-title">
+                    Withdrawal and reinvestment
+                  </h3>
+                  <p class="servers__prpofit-par">
+                    You can withdraw your profit at any time. Funds will be
+                    delivered instantly
+                  </p>
+                </div>
+              </div>
+              <div class="servers__prpofit-box with-animation__up with-animation__up_06">
+                <div class="servers__prpofit-img img4"></div>
+                <div class="servers__prpofit-text">
+                  <h3 class="servers__prpofit-title">Upgrading profits</h3>
+                  <p class="servers__prpofit-par">
+                    You can merge servers. Once your deposit reaches a
+                    specific value, you can make an upgrade
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="numbers numbers_en">
+        <div class="numbers__img-top"></div>
+        <div class="numbers__left">
+          <div class="numbers__video-wrap">
+            <video class="numbers__img lazy" preload="none" loop="" muted=""
+              poster="template/coins/assets/numimg-poster.png">
+              <source src="template/coins/assets/media/Statisctic_animation.mp4" type="video/x-m4v" />
+            </video>
+          </div>
+        </div>
+        <div class="numbers__right numbers__right_en numbers__right1 with-animation">
+          <div class="numbers__right-inner">
+            <h2 class="numbers__title">About us in numbers</h2>
+            <p class="numbers__par">
+              We put a lot of effort into developing our company, and the most
+              desirable reward for us is satisfied investors. You can see this
+              by looking at our statistics
+            </p>
+            <div class="numbers__cards">
+              <div class="numbers__card with-animation__up">
+                <div class="numbers__card-img card-img1"></div>
+                <div class="servers__prpofit-text">
+                  <h3 class="numbers__card-title">52</h3>
+                  <p class="numbers__card-par">
+                    Days of continuous operation of the company
+                  </p>
+                </div>
+              </div>
+              <div class="numbers__card with-animation__up with-animation__up_02">
+                <div class="numbers__card-img card-img2"></div>
+                <div class="servers__prpofit-text">
+                  <h3 class="numbers__card-title">6522</h3>
+                  <p class="numbers__card-par">
+                    Investors joined our platform
+                  </p>
+                </div>
+              </div>
+              <div class="numbers__card with-animation__up with-animation__up_04">
+                <div class="numbers__card-img card-img3"></div>
+                <div class="servers__prpofit-text">
+                  <h3 class="numbers__card-title">1301393 $</h3>
+                  <p class="numbers__card-par">
+                    Attracted investments from clients
+                  </p>
+                </div>
+              </div>
+              <div class="numbers__card with-animation__up with-animation__up_06">
+                <div class="numbers__card-img card-img4"></div>
+                <div class="servers__prpofit-text">
+                  <h3 class="numbers__card-title">459861 $</h3>
+                  <p class="numbers__card-par">
+                    Profit generated by our investors and partners
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-table">
+        <div class="main-table__content">
+          <div class="main-table__content with-animation">
+            <h2 class="main-table__content-title with-animation__up">
+              Affiliate <span class="span">program</span>
+            </h2>
+            <p class="main-table__content-par with-animation__up with-animation__up_02">
+              We have a particular affiliate program for customers who want to
+              make extra profit. By promoting our company, you will receive up
+              to
+              <span class="span">22% of the profit from the deposit of your partners</span>
+            </p>
+            <div class="table-responsive table-responsive__main">
+              <div class="table__head with-animation__up with-animation__up_04">
+                <div class="table__title">Partner's rank <br /></div>
+                <div class="table__title">Attracted by level 1</div>
+                <div class="table__title">Level 1 rate</div>
+                <div class="table__title">Level 2 rate</div>
+                <div class="table__title">Level 3 rate</div>
+                <div class="table__title">Level 4 rate</div>
+                <div class="table__title">Level 5 rate</div>
+                <div class="table__title">Instant bonus</div>
+              </div>
+              <tbody>
+                <div class="with-animation__up">
+                  <div class="table-pinc">
+                    <div class="td stager">STAGER</div>
+                    <div class="table__par">0 $</div>
+                    <div class="table__par">5%</div>
+                    <div class="table__par">1%</div>
+                    <div class="table__par">1%</div>
+                    <div class="table__par">0%</div>
+                    <div class="table__par">0%</div>
+                    <div class="table__par table__par1">0 $</div>
+                  </div>
+                </div>
+                <div class="with-animation__up with-animation__up_02">
+                  <div class="table-pinc">
+                    <div class="td junior">JUNIOR</div>
+                    <div class="table__par">5 000 $</div>
+                    <div class="table__par">7%</div>
+                    <div class="table__par">2%</div>
+                    <div class="table__par">1%</div>
+                    <div class="table__par">0.5%</div>
+                    <div class="table__par">0.5%</div>
+                    <div class="table__par table__par1">250 $</div>
+                  </div>
+                </div>
+                <div class="with-animation__up with-animation__up_04">
+                  <div class="table-pinc">
+                    <div class="td middle">MIDDLE</div>
+                    <div class="table__par">20 000 $</div>
+                    <div class="table__par">8%</div>
+                    <div class="table__par">2%</div>
+                    <div class="table__par">1%</div>
+                    <div class="table__par">1%</div>
+                    <div class="table__par">1%</div>
+                    <div class="table__par table__par1">750 $</div>
+                  </div>
+                </div>
+                <div class="with-animation__up with-animation__up_06">
+                  <div class="table-blue">
+                    <div class="td senior">SENIOR</div>
+                    <div class="table__par">50 000 $</div>
+                    <div class="table__par">10%</div>
+                    <div class="table__par">2%</div>
+                    <div class="table__par">1%</div>
+                    <div class="table__par">1%</div>
+                    <div class="table__par">1%</div>
+                    <div class="table__par table__par1">1 500 $</div>
+                  </div>
+                </div>
+                <div class="with-animation__up with-animation__up_08">
+                  <div class="table-blue">
+                    <div class="td lead">LEAD</div>
+                    <div class="table__par">100 000 $</div>
+                    <div class="table__par">12%</div>
+                    <div class="table__par">2%</div>
+                    <div class="table__par">1%</div>
+                    <div class="table__par">1%</div>
+                    <div class="table__par">1%</div>
+                    <div class="table__par table__par1">2 500 $</div>
+                  </div>
+                </div>
+                <div class="with-animation__up with-animation__up_1">
+                  <div class="table-blue">
+                    <div class="td chief">CHIEF</div>
+                    <div class="table__par">250 000 $</div>
+                    <div class="table__par">15%</div>
+                    <div class="table__par">3%</div>
+                    <div class="table__par">2%</div>
+                    <div class="table__par">1%</div>
+                    <div class="table__par">1%</div>
+                    <div class="table__par table__par1">7 500 $</div>
+                  </div>
+                </div>
+                <div class="with-animation__up with-animation__up_12">
+                  <div class="table-yellow">
+                    <div class="td head">HEAD</div>
+                    <div class="table__par">500 000 $</div>
+                    <div class="table__par">18%</div>
+                    <div class="table__par">3%</div>
+                    <div class="table__par">2%</div>
+                    <div class="table__par">2%</div>
+                    <div class="table__par">1%</div>
+                    <div class="table__par table__par1">12 500 $</div>
+                  </div>
+                </div>
+                <div class="with-animation__up with-animation__up_14">
+                  <div class="table-yellow">
+                    <div class="td visionary">VISIONARY</div>
+                    <div class="table__par">1 000 000 $</div>
+                    <div class="table__par">20%</div>
+                    <div class="table__par">4%</div>
+                    <div class="table__par">3%</div>
+                    <div class="table__par">2%</div>
+                    <div class="table__par">1%</div>
+                    <div class="table__par table__par1">25 000 $</div>
+                  </div>
+                </div>
+                <div class="with-animation__up with-animation__up_16">
+                  <div class="table-yellow">
+                    <div class="td legend">LEGEND</div>
+                    <div class="table__par">2 500 000 $</div>
+                    <div class="table__par">22%</div>
+                    <div class="table__par">5%</div>
+                    <div class="table__par">3%</div>
+                    <div class="table__par">2%</div>
+                    <div class="table__par">2%</div>
+                    <div class="table__par table__par1">75 000 $</div>
+                  </div>
+                </div>
+              </tbody>
+            </div>
+          </div>
+          <div class="main__box">
+            <div class="main__box-row with-animation">
+              <div class="main__box-card">
+                <p class="td stager stager-mob">STAGER</p>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Turnover of funds <br />
+                    on the 1st level
+                  </p>
+
+                  <p class="main__box-span">0 $</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    1st level
+                  </p>
+                  <p class="main__box-span">5%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 2
+                  </p>
+                  <p class="main__box-span">1%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 3
+                  </p>
+                  <p class="main__box-span">1%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 4
+                  </p>
+                  <p class="main__box-span">0%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 5
+                  </p>
+                  <p class="main__box-span">0%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Bonus for rank <br />
+                    obtaining
+                  </p>
+                  <p class="main__box-span main__box-span_blue">0 $</p>
+                </div>
+              </div>
+              <div class="main__box-card">
+                <p class="td junior stager-mob">JUNIOR</p>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Turnover of funds <br />
+                    on the 1st level
+                  </p>
+                  <p class="main__box-span">5 000 $</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    1st level
+                  </p>
+                  <p class="main__box-span">7%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 2
+                  </p>
+                  <p class="main__box-span">2%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 3
+                  </p>
+                  <p class="main__box-span">1%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 4
+                  </p>
+                  <p class="main__box-span">0.5%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 5
+                  </p>
+                  <p class="main__box-span">0.5%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Bonus for rank <br />
+                    obtaining
+                  </p>
+                  <p class="main__box-span main__box-span_blue">250 $</p>
+                </div>
+              </div>
+              <div class="main__box-card">
+                <p class="td middle stager-mob">MIDDLE</p>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Turnover of funds <br />
+                    on the 1st level
+                  </p>
+                  <p class="main__box-span">20 000 $</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    1st level
+                  </p>
+                  <p class="main__box-span">8%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 2
+                  </p>
+                  <p class="main__box-span">2%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 3
+                  </p>
+                  <p class="main__box-span">1%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 4
+                  </p>
+                  <p class="main__box-span">1%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 5
+                  </p>
+                  <p class="main__box-span">1%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Bonus for rank <br />
+                    obtaining
+                  </p>
+                  <p class="main__box-span main__box-span_blue">0 $</p>
+                </div>
+              </div>
+              <div class="main__box-card main__box-card_blue">
+                <p class="td senior stager-mob">SENIOR</p>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Turnover of funds <br />
+                    on the 1st level
+                  </p>
+                  <p class="main__box-span">50 000 $</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    1st level
+                  </p>
+                  <p class="main__box-span">10%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 2
+                  </p>
+                  <p class="main__box-span">2%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 3
+                  </p>
+                  <p class="main__box-span">1%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 4
+                  </p>
+                  <p class="main__box-span">1%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 5
+                  </p>
+                  <p class="main__box-span">1%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Bonus for rank <br />
+                    obtaining
+                  </p>
+                  <p class="main__box-span main__box-span_blue">1 500 $</p>
+                </div>
+              </div>
+              <div class="main__box-card main__box-card_blue">
+                <p class="td lead stager-mob">LEAD</p>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Turnover of funds <br />
+                    on the 1st level
+                  </p>
+                  <p class="main__box-span">100 000 $</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    1st level
+                  </p>
+                  <p class="main__box-span">12%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 2
+                  </p>
+                  <p class="main__box-span">2%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 3
+                  </p>
+                  <p class="main__box-span">1%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 4
+                  </p>
+                  <p class="main__box-span">1%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 5
+                  </p>
+                  <p class="main__box-span">1%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Bonus for rank <br />
+                    obtaining
+                  </p>
+                  <p class="main__box-span main__box-span_blue">2 500 $</p>
+                </div>
+              </div>
+              <div class="main__box-card main__box-card_blue">
+                <p class="td chief stager-mob">CHIEF</p>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Turnover of funds <br />
+                    on the 1st level
+                  </p>
+                  <p class="main__box-span">250 000 $</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    1st level
+                  </p>
+                  <p class="main__box-span">15%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 2
+                  </p>
+                  <p class="main__box-span">3%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 3
+                  </p>
+                  <p class="main__box-span">2%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 4
+                  </p>
+                  <p class="main__box-span">1%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 5
+                  </p>
+                  <p class="main__box-span">1%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Bonus for rank <br />
+                    obtaining
+                  </p>
+                  <p class="main__box-span main__box-span_blue">7 500 $</p>
+                </div>
+              </div>
+              <div class="main__box-card main__box-card_yellow">
+                <p class="td head stager-mob">HEAD</p>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Turnover of funds <br />
+                    on the 1st level
+                  </p>
+                  <p class="main__box-span">500 000 $</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    1st level
+                  </p>
+                  <p class="main__box-span">18%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 2
+                  </p>
+                  <p class="main__box-span">3%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 3
+                  </p>
+                  <p class="main__box-span">2%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 4
+                  </p>
+                  <p class="main__box-span">2%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 5
+                  </p>
+                  <p class="main__box-span">1%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Bonus for rank <br />
+                    obtaining
+                  </p>
+                  <p class="main__box-span main__box-span_blue">12 500 $</p>
+                </div>
+              </div>
+              <div class="main__box-card main__box-card_yellow">
+                <p class="td visionary stager-mob">VISIONARY</p>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Turnover of funds <br />
+                    on the 1st level
+                  </p>
+                  <p class="main__box-span">1 000 000 $</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    1st level
+                  </p>
+                  <p class="main__box-span">20%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 2
+                  </p>
+                  <p class="main__box-span">4%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 3
+                  </p>
+                  <p class="main__box-span">3%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 4
+                  </p>
+                  <p class="main__box-span">2%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 5
+                  </p>
+                  <p class="main__box-span">1%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Bonus for rank <br />
+                    obtaining
+                  </p>
+                  <p class="main__box-span main__box-span_blue">25 000 $</p>
+                </div>
+              </div>
+              <div class="main__box-card main__box-card_yellow">
+                <p class="td legend stager-mob">LEGEND</p>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Turnover of funds <br />
+                    on the 1st level
+                  </p>
+                  <p class="main__box-span">2 500 000 $</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    1st level
+                  </p>
+                  <p class="main__box-span">22%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 2
+                  </p>
+                  <p class="main__box-span">5%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 3
+                  </p>
+                  <p class="main__box-span">3%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 4
+                  </p>
+                  <p class="main__box-span">2%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Income from partners <br />
+                    level 5
+                  </p>
+                  <p class="main__box-span">2%</p>
+                </div>
+                <div class="main__box-line">
+                  <p class="main__box-par">
+                    Bonus for rank <br />
+                    obtaining
+                  </p>
+                  <p class="main__box-span main__box-span_blue">75 000 $</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main-table__content-info with-animation">
+            <p class="main-table__content-info_par with-animation__up">
+              You don't need a personal deposit to use the affiliate program.
+              However, we highly recommend you make at least one deposit to
+              gain practical investment experience and share this information
+              with your partners, guiding them smoothly.
+            </p>
+          </div>
+          <div class="main-table__content-blocks with-animation">
+            <div class="main-table__content-block with-animation__up with-animation__up_02">
+              <div class="main-table__content-block_img reg"></div>
+              <div class="servers__prpofit-text">
+                <h3 class="main-table__content-block_title">
+                  Register an account
+                </h3>
+                <p class="main-table__content-block_par">
+                  To become our partner, you need a personal account
+                </p>
+              </div>
+            </div>
+            <div class="main-table__content-block with-animation__up with-animation__up_04">
+              <div class="main-table__content-block_img enter"></div>
+              <div class="servers__prpofit-text">
+                <h3 class="main-table__content-block_title">
+                  Log in to your personal account
+                </h3>
+                <p class="main-table__content-block_par">
+                  And get your personal affiliate link to invite partners
+                </p>
+              </div>
+            </div>
+            <div class="main-table__content-block with-animation__up with-animation__up_06">
+              <div class="main-table__content-block_img ern"></div>
+              <div class="servers__prpofit-text">
+                <h3 class="main-table__content-block_title">
+                  Promote and earn!
+                </h3>
+                <p class="main-table__content-block_par">
+                  Use promotional materials to attract investors
+                </p>
+              </div>
+            </div>
+            <a class="main-table__content-block_button button button__blue with-animation__up with-animation__up_08"
+              href="/auth/signup">Become a partner</a>
+          </div>
+        </div>
+      </div>
+      <div class="main-faq">
+        <div class="main-faq__content main-faq__content_m with-animation">
+          <h2 class="main-faq__title with-animation__up">
+            FAQ and <span class="span"> manuals </span>
+          </h2>
+          <div class="main-faq__block with-animation__up with-animation__up_02">
+            <p class="main-faq__par">
+              We have collected answers to the most common questions and
+              published guideline videos here
+            </p>
+            <a href="/faq" class="main-faq__button button_grey">
+              All questions
+            </a>
+          </div>
+          <div class="main-faq__collapse">
+            <div class="accordion with-animation__up with-animation__up_04" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading0">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse0"
+                    aria-expanded="false" aria-controls="collapse0">
+                    What is the activity of Leftcoins?
+                  </button>
+                </h2>
+                <div id="collapse0" class="accordion-collapse collapse" aria-labelledby="heading0"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>
+                      Our company is seeking for forgotten cryptocurrency
+                      wallets. After a certain wallet with balance is found
+                      which is inactive for a certain period, a special
+                      algorithm starts searching access keys to wallet. Most
+                      special feature of the algorithm is the way how it
+                      manage combinations. It allows to compare combinations
+                      during selection and discard obviously false ones. The
+                      algorithm is processed using specialized server
+                      machines, located in several data centers of the
+                      company. Key searching speed depends on the modification
+                      and technical specifications of the server. We also
+                      offer an investment program. By purchasing our servers,
+                      you get the opportunity to earn from 2.5% profit per day
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading1">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1"
+                    aria-expanded="false" aria-controls="collapse1">
+                    Where the company is registered?
+                  </button>
+                </h2>
+                <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>
+                      Leftcoins company is registered in Australia by address:
+                      24/570&nbsp;Bourke&nbsp;St.&nbsp;Melbourne&nbsp;VIC&nbsp;3000
+                      and has the unique company ID 664 701 740
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading2">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2"
+                    aria-expanded="false" aria-controls="collapse2">
+                    Who are in top management team of the company?
+                  </button>
+                </h2>
+                <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>
+                      The owner and CEO of the company is
+                      <strong>Arnold Mitchell</strong> - American
+                      entrepreneur, living in Australia at the moment.
+                      Previously, Arnold worked in companies such as Google
+                      and Coinbase, and spent most time by learning
+                      cryptography science.<br />
+                      Unique ideas and software, which are the most important
+                      for company&rsquo;s activity have developed by him
+                      personally. <br />
+                      For company&rsquo;s future development, Arnold invited
+                      outstanding specialists. Each from them is a
+                      professional in according branch and has impressive
+                      experience. Here is the information about them:<br />
+                      <br />
+                      <strong>Derrick Wade</strong> - CFO. Derrick is involved
+                      in company&rsquo;s strategic planning, manages
+                      information systems, controls company&rsquo;s costs and
+                      prepares financial reports. He is involved in Tax
+                      Planning as well: optimizing company&rsquo;s taxes and
+                      cooperating with government<br />
+                      <br />
+                      <strong>Dora Barrett</strong> - CMO. Dora develops
+                      strategic and marketing plans for the company in all
+                      areas, connected with marketing activities and
+                      company&rsquo;s brand. <br />
+                      Develops important company activities and helps to bring
+                      it to a new level in mass media.<br />
+                      <br />
+                      <strong>George Harrington</strong> - CTO. George is
+                      responsible on technical aspects, he optimize technical
+                      processes and taking part in new services and products
+                      development. Ensures that the company's technology
+                      strategies are in line with business strategies<br />
+                      <br /><strong>Amanda Miller</strong>&nbsp;- Head of HR.
+                      Rebecca develops strategy in human resources management,
+                      responsible on motivation and personal growth of each
+                      significant employee, taking part in company&rsquo;s top
+                      management, and is one of most significant persons in
+                      the company, as her activity affects on the
+                      company&rsquo;s productivity. <br />
+                      <br />
+                      <strong>Steven Pope</strong> - Head of IT Security.
+                      Steven organizes coordinated, uninterrupted operation of
+                      all Information systems, as well as protection of
+                      confidential and other important data from leakage and
+                      third-party access. Follows general purposes of the
+                      company&rsquo;s development, manages software
+                      development strategies, taking part in Software
+                      Architecture development and manages development of
+                      company&rsquo;s security systems.<br />
+                      <br />
+                      <strong>Michael Pitts</strong> - Head of Cryptography.
+                      Michael is one of most experienced specialists in
+                      cryptography and encryption science. Heads the
+                      decryption department in company, which develops key
+                      decryption algorithms for wallets and improves
+                      it&rsquo;s performance. Activity of Michael and his
+                      department is most important for company&rsquo;s
+                      resources optimization and costs reduction. As less
+                      resources and time spent on keys searching, so higher
+                      will be company&rsquo;s profitability.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading3">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3"
+                    aria-expanded="false" aria-controls="collapse3">
+                    Where are company’s data centers situated?
+                  </button>
+                </h2>
+                <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>
+                      At this moment, company owns 3 data centers. First and
+                      the biggest one is situated in Melbourne, Australia. It
+                      consists of more than 800 server machines. The specialty
+                      of this centre is solar panels usage, it allows
+                      significantly decrease the energy consumption. <br />
+                      Second data centre is situated in Livonia, which is near
+                      Stockholm, where will be a main company&rsquo;s branch
+                      in future. There are more than 600 server machines in
+                      this location. It is using modern cooling system, which
+                      has been developed by Hamon. <br />
+                      Third data centre is situated near San Francisco, U.S.
+                      At this moment, there are more than 400 servers.
+                      Currently is the smallest company&rsquo;s data centre
+                      and has been opened for U.S and Canada&rsquo;s markets
+                      presence.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading4">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4"
+                    aria-expanded="false" aria-controls="collapse4">
+                    How company is generating profits for investors and
+                    itself?
+                  </button>
+                </h2>
+                <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>
+                      Derrek Wade, company&rsquo;s CFO quote: &ldquo;Once we
+                      find a wallet with balance and getting access to it,
+                      these funds are following to one of our main accounts
+                      and then paid out to investors who owns virtual or
+                      physical servers. 70% funds are paying our to private
+                      investors, 15% are covering servers maintenance costs,
+                      12% going on marketing purpose and company&rsquo;s net.
+                      profit is from 1.2% to 3.0%
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading5">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5"
+                    aria-expanded="false" aria-controls="collapse5">
+                    What types of servers does company using for keys
+                    searching?
+                  </button>
+                </h2>
+                <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>
+                      Company uses 2 types of services: Virtual and Physical
+                      servers. Virtual servers (<strong>VPM</strong>) are
+                      deployed on basis of Physical servers. Each virtual
+                      server is 1/100 of according Physical Server
+                      (<strong>VDM</strong>). For example, basic VPM-025
+                      Server is 1/100 of basic Physical server VDM-X25. The
+                      main advantage of virtual servers is the ability to
+                      deploy them instantly in almost unlimited quantities
+                      without significant time spent on setup and
+                      configuration. <br />
+                      Physical Virtual Dedicated Machine (VDM) servers are
+                      characterized by increased performance and high payback
+                      compared to virtual ones. Each of them is based on Intel
+                      Data Center Systems. Here we will provide detailed
+                      technical specifications of the physical servers owned
+                      by the company<br />
+                      <span class="s1"><strong>VDM-X25</strong>. Access keys generation:
+                        50000/minute. CPU: Intel Xeon Bronze 3204. RAM: 8
+                        Gb.<br />
+                        <strong>VDM-X50</strong>. Access keys generation:
+                        100000/minute. CPU: Intel Xeon Silver 4116. RAM: 16
+                        Gb.<br />
+                        <strong>VDM-X100</strong>. Access keys generation:
+                        200000/minute. CPU: Intel Xeon Silver 4310T. RAM: 16
+                        Gb.<br />
+                        <strong>VDM-X250</strong>. Access keys generation:
+                        500000/minute. CPU: Intel Xeon Gold 6226R. RAM: 32
+                        Gb.<br />
+                        <strong>VDM-X500</strong>. Access keys generation:
+                        700000/minute. CPU: Intel Xeon Gold 6312U. RAM: 32
+                        Gb.<br />
+                        <strong>VDM-X750</strong>. Access keys generation:
+                        850000/minute. CPU: Intel Xeon Platinum 8360HL. RAM:
+                        64 Gb.<br />
+                        <strong>VDM-WX1</strong>. Access keys generation:
+                        1000000/minute. CPU: Intel Xeon Platinum 8368. RAM: 64
+                        Gb<br />
+                        <br />
+                        <strong>VDM-X750</strong> and
+                        <strong>VDM-WX1</strong> are not divided on virtual
+                        servers due to it&rsquo;s complexity and
+                        equipment&rsquo;s costs.</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading6">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6"
+                    aria-expanded="false" aria-controls="collapse6">
+                    What will be if the owner of restored wallet will be
+                    found?
+                  </button>
+                </h2>
+                <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>
+                      We are totally against unauthorized access to other
+                      people's wallets. Before entering the company's
+                      database, each wallet is well-tested by automized
+                      software, which allows to accurately determine whether
+                      the wallet is abandoned. One of the important factors
+                      when checking a wallet is the time of last transaction.
+                      In simple words, if there were not any transactions over
+                      the past few years, this wallet will be added in our
+                      database, however, these are not all the factors that we
+                      use to check, which practically excludes the misuse of
+                      the wallet. <br />
+                      In case if the owner of the wallet has been founded or
+                      contacted us, we will provide access or leave this
+                      wallet without action if owner wishes so. To prove
+                      wallet&rsquo;s ownership, owner must answer questions
+                      and provide certain proofs of ownership. If the proof is
+                      sufficient, we have 2 options: First is to leave the
+                      wallet without any action if owner wish so, Second
+                      option: we can search keys for this wallet and provide
+                      it to owner by signing a contract. In this case owner
+                      must pay 1-25% fee for our service depending on amount
+                      of funds on the wallet.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading7">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7"
+                    aria-expanded="false" aria-controls="collapse7">
+                    What plans does the company have for the future?
+                  </button>
+                </h2>
+                <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>
+                      Quote of Dora Barrett, company&rsquo;s CMO:
+                      &ldquo;Company has so ambitious plans as ambitious
+                      it&rsquo;s idea is. For the future we planned a lot of
+                      upgrades and new features, which will have the positive
+                      effect on company&rsquo;s development and cashflow
+                      generation. In the near future, we are planning the
+                      development of our token LCOT (<span class="s1">Leftcoins Operational Token</span>). It will open
+                      new opportunities for company&rsquo;s
+                      investors, the main one is DAO, which makes possible to
+                      have a certain influence on company&rsquo;s actions and
+                      development direction. After that, we will open a
+                      platform for corporate and institutional investors. We
+                      are planning to spread our presence and will open San
+                      Francisco, U.S and Montreal, Canada branches. We have
+                      already made first steps for this, when opened a data
+                      centre in San Francisco, U.S. Instead of this, in the
+                      near future we are waiting for an official mobile app to
+                      be released to increase platform&rsquo;s mobility and
+                      attract new customers. The most expected feature in
+                      2024: The possibility to using your own Personal
+                      Computer as a Key Searching machine. This feature will
+                      have strict requirements from PC owner and keys will
+                      have an encryption, it matters that only Leftcoins will
+                      have access to wallet&rsquo;s keys.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main-faq__videos">
+              <a href="#" class="main-faq__video with-animation__up with-animation__up_06 video-frame-wrap-link">
+                <div class="main-faq__video-img faq__video-img faq__video-img1 vid1">
+                  <iframe class="video-frame" width="560" height="315"
+                    data-src="https://www.youtube.com/embed/WgSK6YtkexU?rel=0&autoplay=1" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                  <video class="background-video faq__video_background-video lazy" preload="none" loop="" muted=""
+                    poster="template/coins/assets/vid1b.png">
+                    <source src="template/coins/assets/media/registration.mp4" type="video/mp4" />
+                  </video>
+                  <div class="info__block-play main-faq__video-play">
+                    <img src="template/coins/assets/triangle2.png" class="main-faq__video-playimg" />
+                  </div>
+                </div>
+                <div class="main-faq__video-row">
+                  <p class="main-faq__video-par">Account registration</p>
+                  <span class="span__time span__time-frey">0.5 min</span>
+                </div>
+              </a>
+              <a class="main-faq__video main-faq__video1 with-animation__up with-animation__up_08 video-frame-wrap-link"
+                href="#">
+                <div class="main-faq__video-img faq__video-img faq__video-img1 vid2">
+                  <iframe class="video-frame" width="560" height="315"
+                    data-src="https://www.youtube.com/embed/rs36Js2kY7g?rel=0&autoplay=1" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                  <video class="background-video faq__video_background-video lazy" preload="none" loop="" muted=""
+                    poster="template/coins/assets/vid2b.png">
+                    <source src="template/coins/assets/media/settings.mp4" type="video/mp4" />
+                  </video>
+                  <div class="info__block-play main-faq__video-play">
+                    <img src="template/coins/assets/triangle2.png" class="main-faq__video-playimg" />
+                  </div>
+                </div>
+                <div class="main-faq__video-row">
+                  <p class="main-faq__video-par">Account settings</p>
+                  <span class="span__time span__time-frey">1 min</span>
+                </div>
+              </a>
+              <a class="main-faq__video main-faq__video2 with-animation__up with-animation__up_1 video-frame-wrap-link"
+                href="#">
+                <div class="main-faq__video-img faq__video-img faq__video-img1 vid3">
+                  <iframe class="video-frame" width="560" height="315"
+                    data-src="https://www.youtube.com/embed/2QmQOAxRHpg?rel=0&autoplay=1" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                  <video class="background-video faq__video_background-video lazy" preload="none" loop="" muted=""
+                    poster="template/coins/assets/vid2b.png">
+                    <source src="template/coins/assets/media/investing.mp4" type="video/mp4" />
+                  </video>
+                  <div class="info__block-play main-faq__video-play">
+                    <img src="template/coins/assets/triangle2.png" class="main-faq__video-playimg" />
+                  </div>
+                </div>
+                <div class="main-faq__video-row">
+                  <p class="main-faq__video-par">Make a deposit</p>
+                  <span class="span__time span__time-frey">1 min</span>
+                </div>
+              </a>
+            </div>
+            <a href="" class="main-faq__button main-faq__button1 button_grey">
+              All questions
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="linear-bg-animation">
+        <div class="main-news">
+          <div class="main-news__content with-animation">
+            <div class="main-news__content-top">
+              <div class="main-news__title">
+                <h2 class="main-news__content-title with-animation__up">
+                  News of the <span class="span"> Platform</span>
+                </h2>
+                <p class="main-news__content-par with-animation__up with-animation__up_02">
+                  Find out about the latest updates in our company's
+                  activities
+                </p>
+              </div>
+              <a href="/news"
+                class="main-news__content-button button button_grey with-animation__up with-animation__up_02">
+                All news
+              </a>
+            </div>
+            <div class="main-news__content-bottom">
+              <div class="main-news__content-block with-animation__up with-animation__up_04">
+                <img class="main-news__content-block_img" src="uploads/1698330964.jpg" />
+                <p class="main-news__content-block_date">26.10.2023 14:28</p>
+                <h3 class="main-news__content-block_title">
+                  Melbourne office presentation
+                </h3>
+                <p class="main-news__content-block_par">
+                  Dear investors and partners! We are pleased to offer you a
+                  unique opportunity to take an inside look at our head
+                  office...
+                </p>
+                <a href="/auth/signup" class="main-news__content-block_link">Full text</a>
+              </div>
+              <div class="main-news__content-block with-animation__up with-animation__up_06">
+                <img class="main-news__content-block_img" src="uploads/1697447368.png" />
+                <p class="main-news__content-block_date">17.10.2023 10:03</p>
+                <h3 class="main-news__content-block_title">
+                  An internal exchange
+                </h3>
+                <p class="main-news__content-block_par">
+                  Dear investors and partners! We are pleased to announce the
+                  launch of a long-awaited tool that will significantly...
+                </p>
+                <a href="/auth/signup" class="main-news__content-block_link">Full text</a>
+              </div>
+              <div class="main-news__content-block with-animation__up with-animation__up_08">
+                <img class="main-news__content-block_img" src="uploads/1697022520.jpg" />
+                <p class="main-news__content-block_date">11.10.2023 11:57</p>
+                <h3 class="main-news__content-block_title">
+                  New office in United Kingdom
+                </h3>
+                <p class="main-news__content-block_par">
+                  In line with our strategy for global expansion and
+                  strengthening our international presence, our company is
+                  proud to...
+                </p>
+                <a href="/auth/signup" class="main-news__content-block_link">Full text</a>
+              </div>
+            </div>
+            <a href="/news" class="main-news__content-button main-news__content-button1 button button_grey">
+              All news
+            </a>
+          </div>
+        </div>
+        <div class="account">
+          <div class="account__content with-animation">
+            <div class="account__content-left with-animation">
+              <h3 class="account__content-title with-animation__up">
+                Get your account in<span class="span">
+                  less than a minute!</span>
+              </h3>
+              <p class="account__content-par with-animation__up with-animation__up_02">
+                To earn up to
+                <span class="span">4.7% profit every day.</span> We take care
+                of the rest
+              </p>
+              <a href="/auth/signup"
+                class="account__content-button button button__blue with-animation__up with-animation__up_04">Sign up
+                now</a>
+            </div>
+            <div class="account__content-right">
+              <video id="background-video" class="background-video account__content-img lazy" preload="none" loop=""
+                muted="" poster="template/coins/assets/CTA_illustration.png">
+                <source src="template/coins/assets/media/CTA_animation.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="footer__blocks">
+          <div class="footer__block">
+            <div class="footer__logo"></div>
+            <p class="footer__par footer__par-icon adress">
+              24/570 BOURKE ST, <br />
+              MELBOURNE VICTORIA 3000
+            </p>
+            <div class="footer__column">
+              <p class="footer__par footer__par-icon footer__par-icon2 number">
+                Company number
+              </p>
+              <p class="footer__num">664 701 740</p>
+            </div>
+            <a class="button button__white footer__btn" target="_blank"
+              href="https://connectonline.asic.gov.au/RegistrySearch/faces/landing/SearchRegisters.jspx?_adf.ctrl-state=11cwt1iho5_4">
+              Check company
+            </a>
+          </div>
+          <div class="footer__block-mob_box">
+            <div class="footer__block-mob_row">
+              <div class="footer__block footer__block1">
+                <h3 class="footer__title">About us</h3>
+                <a href="/" class="footer__par">Main</a>
+                <a href="/about" class="footer__par">Company</a>
+                <a href="/rules" class="footer__par">User agreement</a>
+              </div>
+              <div class="footer__block footer__block1">
+                <h3 class="footer__title">Investments</h3>
+                <a href="/investments" class="footer__par">Investment</a>
+                <a href="/partners" class="footer__par">Partners</a>
+                <a href="/auth/signup" class="footer__par">Investor's account</a>
+              </div>
+              <div class="footer__block footer__block2">
+                <h3 class="footer__title">Information</h3>
+                <a href="/faq" class="footer__par">FAQ</a>
+                <a href="/news" class="footer__par">News</a>
+                <a href="/about#reviews" class="footer__par">Reviews</a>
+              </div>
+              <div class="footer__block footer__block2">
+                <h3 class="footer__title">Help</h3>
+                <a class="footer__par" href="/feed">Contacts</a>
+                <a class="footer__par footer__par-icon footer__par-icon1 support" target="_blank"
+                  href="mailto:support@leftcoins.com">
+                  support@leftcoins.com
+                </a>
+                <a class="footer__par footer__par-icon footer__par-icon1 telegram" target="_blank"
+                  href="https://t.me/Leftcoins">
+                  Telegram support
+                </a>
+                <a class="footer__par footer__par-icon footer__par-icon1 wa" target="_blank"
+                  href="https://chat.whatsapp.com/">
+                  WhatsApp support
+                </a>
+              </div>
+            </div>
+            <div class="foot">
+              <div class="foot__block">
+                <p class="foot__par foot__par-mon">
+                  Domain valid:
+                  <span class="span__foot">&nbsp;2028.11.29</span>
+                </p>
+                <a href="https://www.whois.com/whois/leftcoins.com" target="_blank" class="foot__link">
+                  Check Information
+                </a>
+              </div>
+              <div class="foot__box">
+                <p class="foot__par foot__par_green foot__par-lock">
+                  EV SSL protection | By Digicert
+                </p>
+              </div>
+              <div class="foot__block_us">
+                <p class="foot__par foot__par-key">
+                  User data:
+                  <span class="span__foot">&nbsp;Protected and encrypted</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__row">
+          <div class="footer__row-small">
+            <p class="footer__row-par">
+              © 2023, Leftcoins Digital Algorithms PTY LTD.
+            </p>
+            <a href="https://connectonline.asic.gov.au/RegistrySearch/faces/landing/SearchRegisters.jspx?_adf.ctrl-state=11cwt1iho5_4"
+              target="_blank">
+              <img class="footer__row-img" src="template/coins/assets/ASIClogo.png" />
+            </a>
+          </div>
+          <div class="header__contacts-links footer__contacts-links">
+            <div class="dropdown nav-item header__dropdown icon__dropdown">
+              <a class="btn btn-secondary dropdown-toggle dropdown-toggle__icon footer__ladel icon icon_tel-footer"
+                type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              </a>
+              <div class="dropdown-menu dash__dropdown" aria-labelledby="dropdownMenuButton1">
+                <div class="drop__bg">
+                  <h4 class="dropdown-item dropdown-item__title dash__dropdown-title">
+                    Channel
+                  </h4>
+                  <a class="dropdown-item icon icon_en header__dropdown-item header__dropdown-item_dash"
+                    href="https://t.me/+p3H5OpUvxNhlZGUx" target="_blank">Leftcoins Official Channel</a>
+                </div>
+                <div class="drop__bg drop__bg1">
+                  <h4 class="dropdown-item dropdown-item__title dash__dropdown-title">
+                    Communities
+                  </h4>
+                  <div class="row simple-bar" data-simplebar="init">
+                    <ul class="col-md-6">
+                      <li>
+                        <a class="dropdown-item icon icon_en header__dropdown-item header__dropdown-item_dash"
+                          href="https://t.me/leftcoins_en" target="_blank">English group</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item icon icon_de header__dropdown-item header__dropdown-item_dash"
+                          href="https://t.me/leftcoins_de" target="_blank">Deutsche Gruppe</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item icon icon_fr header__dropdown-item header__dropdown-item_dash"
+                          href="https://t.me/leftcoins_fr" target="_blank">Groupe français</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item icon icon_es header__dropdown-item header__dropdown-item_dash"
+                          href="https://t.me/leftcoins_esp" target="_blank">Grupo español</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item icon icon_it header__dropdown-item header__dropdown-item_dash"
+                          href="https://t.me/leftcoins_ita" target="_blank">Gruppo italiano</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item icon icon_pt header__dropdown-item header__dropdown-item_dash"
+                          href="https://t.me/leftcoins_pt" target="_blank">Grupo português</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item icon icon_tr header__dropdown-item header__dropdown-item_dash"
+                          href="https://t.me/leftcoins_tr" target="_blank">Türk grubu</a>
+                      </li>
+                    </ul>
+                    <ul class="col-md-6">
+                      <li>
+                        <a class="dropdown-item icon icon_ru header__dropdown-item header__dropdown-item_dash"
+                          href="https://t.me/leftcoins_ru" target="_blank">Русская группа</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item icon icon_ar header__dropdown-item header__dropdown-item_dash"
+                          href="https://t.me/leftcoins_ar" target="_blank">المجموعة العربية</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item icon icon_cn header__dropdown-item header__dropdown-item_dash"
+                          href="https://t.me/leftcoins_cn" target="_blank">华人组</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item icon icon_th header__dropdown-item header__dropdown-item_dash"
+                          href="https://t.me/leftcoins_th" target="_blank">กลุ่มคนไทย</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item icon icon_fa header__dropdown-item header__dropdown-item_dash"
+                          href="https://t.me/leftcoins_fa" target="_blank">گروه فارسی</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item icon icon_vn header__dropdown-item header__dropdown-item_dash"
+                          href="https://t.me/leftcoins_vn" target="_blank">Nhóm việt nam</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item icon icon_hi header__dropdown-item header__dropdown-item_dash"
+                          href="https://t.me/leftcoins_in" target="_blank">भारतीय समूह</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="drop__bg drop__bg1">
+                  <h4 class="dropdown-item dropdown-item__title dash__dropdown-title">
+                    Support
+                  </h4>
+                  <div class="row">
+                    <ul class="col-md-6">
+                      <li>
+                        <a class="dropdown-item icon icon_supp-dark header__dropdown-item header__dropdown-item_dash"
+                          href="https://t.me/leftcoins" target="_blank">Roger support</a>
+                      </li>
+                    </ul>
+                    <ul class="col-md-6">
+                      <li>
+                        <a class="dropdown-item icon icon_en header__dropdown-item header__dropdown-item_dash"
+                          href="https://t.me/leftcoins_bk" target="_blank">Bruce support</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="https://chat.whatsapp.com/E71F7lCPJCP1X7CcDi9awk" class="footer__ladel icon icon_wa-footer"
+              target="_blank"></a>
+            <a href="https://twitter.com/leftcoinscom" class="footer__ladel icon icon_tw-footer" target="_blank"></a>
+            <a href="https://www.youtube.com/@leftcoins" class="footer__ladel icon icon_yout-footer"
+              target="_blank"></a>
+            <a href="https://www.linkedin.com/company/leftcoins" class="footer__ladel icon icon_linkedin-footer"
+              target="_blank"></a>
+            <a href="https://medium.com/@leftcoins" class="footer__ladel icon icon_md-footer" target="_blank"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <div class="note note_error dash__info-left dash__info-left_darck" style="display: none">
+    <p class="dash__info-left-par red1 note__content"></p>
+    <button class="dash__info-left-btn"></button>
+  </div>
+  <div class="note note_success dash__info-left dash__info-left_darck" style="display: none">
+    <p class="dash__info-left-par green1 note__content"></p>
+    <button class="dash__info-left-btn"></button>
+  </div>
+  <script type="text/javascript" src="template/coins/js/build/libs.js"></script>
+  <script type="text/javascript" src="template/coins/js/build/site/scripts-site.js"></script>
+</body>
+
+</html>
