@@ -1,770 +1,1603 @@
 <!DOCTYPE html>
 <html lang="en" class="html">
-
-<head>
-    <meta charset="utf-8">
-    <base href="http://127.0.0.1:5500/" />
+  <head>
+    <meta charset="utf-8" />
+    <base href="https://leftcoins.site/" />
     <title>Leftcoins</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0055ff">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="template/coins/css/build/site/styles/libs.css">
-    <link rel="stylesheet" href="template/coins/css/build/site/styles/styles-layout.css">
-    <link rel="stylesheet" href="template/coins/css/build/cabinet/styles/styles-cabinet.css">
-    <link rel="stylesheet" href="template/coins/css/build/cabinet/styles/styles-deposits.css">
-    <script type="text/javascript" src="template/coins/js/build/site/scripts-animate.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0055ff" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <link
+      rel="stylesheet"
+      href="template/coins/css/build/site/styles/libs.css"
+    />
+    <link
+      rel="stylesheet"
+      href="template/coins/css/build/site/styles/styles-layout.css"
+    />
+    <link
+      rel="stylesheet"
+      href="template/coins/css/build/cabinet/styles/styles-cabinet.css"
+    />
+    <link
+      rel="stylesheet"
+      href="template/coins/css/build/cabinet/styles/styles-deposits.css"
+    />
+    <script
+      type="text/javascript"
+      src="template/coins/js/build/site/scripts-animate.js"
+    ></script>
     <script src="template/coins/js/form_validators_min.js"></script>
-    <script src="//code.tidio.co/yd1kghlpdgheyklv8dyuawnjwt6nsk6r.js" async=""></script>
-</head>
+    <script
+      src="//code.tidio.co/yd1kghlpdgheyklv8dyuawnjwt6nsk6r.js"
+      async=""
+    ></script>
+  </head>
 
-<body>
+  <body>
     <div class="body__dash">
-        <div class="dash">
-            <div class="dash__content">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light dash__navbar navbar1">
-                    <div class="container-fluid dash__container-fluid">
-                        <div class="dash__container-top">
-                            <div class="dash__logo-row"> <a class="navbar-brand" href="/"> <img class="dash__logo"
-                                        src="template/coins/assets/Logo1.png" alt=""> </a>
-                                <div class="dash__logo-line"></div> <a href="#" class="dash__logo-link">Cabinet</a>
-                            </div> <button class="dash__btn" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#dashSupportedContent" aria-controls="dashSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation"> <i
-                                    class="fa-solid fa-grip-lines dash-solid"></i> </button>
-                            <div class="collapse navbar-collapse dash__collapse" id="dashSupportedContent">
-                                <ul class="dash__navbar-nav navbar-nav me-auto mb-2 mb-lg-0"> <a
-                                        class="nav-item dash__nav-item " aria-current="page" href="/dashboard">
-                                        <p class="dash__nav-link dash1 nav-link " aria-current="page" href="/dashboard">
-                                            Cabinet</p>
-                                    </a> <a class="dash__nav-item nav-item " aria-current="page" href="/deposits">
-                                        <p class="dash__nav-link dash2 nav-link " aria-current="page" href="/deposits">
-                                            Make a deposit</p>
-                                    </a> <a class="dash__nav-item nav-item active" aria-current="page"
-                                        href="/dashboard/deposits">
-                                        <p class="dash__nav-link dash3 nav-link active" aria-current="page"
-                                            href="/dashboard/deposits">My deposits</p>
-                                    </a> <a class="dash__nav-item nav-item " aria-current="page"
-                                        href="/dashboard/withdrawal">
-                                        <p class="dash__nav-link dash4 nav-link " aria-current="page"
-                                            href="/dashboard/withdrawal">Withdraw funds</p>
-                                    </a> <a class="dash__nav-item nav-item " aria-current="page"
-                                        href="/dashboard/history">
-                                        <p class="dash__nav-link dash5 nav-link " aria-current="page"
-                                            href="/dashboard/history">Operations history</p>
-                                    </a> <a class="dash__nav-item nav-item " aria-current="page" href="/dashboard/ref">
-                                        <p class="dash__nav-link dash6 nav-link " aria-current="page"
-                                            href="/dashboard/ref">Affiliate Program</p>
-                                    </a> <a class="dash__nav-item nav-item " aria-current="page" href="/tickets">
-                                        <p class="dash__nav-link dash7 nav-link " aria-current="page" href="/tickets">
-                                            Help</p>
-                                    </a> <a class="dash__nav-item nav-item " aria-current="page" href="/dashboard/edit">
-                                        <p class="dash__nav-link dash8 nav-link " aria-current="page"
-                                            href="/dashboard/edit">Settings</p>
-                                    </a> </ul>
-                            </div>
-                        </div>
-                        <div class="dash__nav-bottom">
-                            <div class="header__contacts-links dash__contacts-links">
-                                <div class="dropdown nav-item header__dropdown icon__dropdown"> <a
-                                        class="btn btn-secondary dropdown-toggle dropdown-toggle__icon header__ladel dash__ladel icon icon_tel dash_tel"
-                                        type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
-                                        aria-expanded="false"> </a>
-                                    <ul class="dropdown-menu dash__dropdown" aria-labelledby="dropdownMenuButton1">
-                                        <div class="drop__bg">
-                                            <h4 class="dropdown-item dropdown-item__title dash__dropdown-title">
-                                                Channel
-                                            </h4> <a
-                                                class="dropdown-item icon icon_en header__dropdown-item header__dropdown-item_dash"
-                                                href="https://t.me/+p3H5OpUvxNhlZGUx" target="_blank">Official
-                                                Channel</a>
-                                        </div>
-                                        <div class="drop__bg drop__bg1">
-                                            <h4 class="dropdown-item dropdown-item__title dash__dropdown-title">
-                                                Communities
-                                            </h4>
-                                            <div class="row">
-                                                <ul class="col-md-12 simple-bar" data-simplebar="init">
-                                                    <div class="simplebar-wrapper" style="margin: 0px -5px;">
-                                                        <div class="simplebar-height-auto-observer-wrapper">
-                                                            <div class="simplebar-height-auto-observer"></div>
-                                                        </div>
-                                                        <div class="simplebar-mask">
-                                                            <div class="simplebar-offset"
-                                                                style="right: 0px; bottom: 0px;">
-                                                                <div class="simplebar-content-wrapper" tabindex="0"
-                                                                    role="region" aria-label="scrollable content"
-                                                                    style="height: auto; overflow: scroll;">
-                                                                    <div class="simplebar-content"
-                                                                        style="padding: 0px 5px;">
-                                                                        <li> <a class="dropdown-item icon icon_en header__dropdown-item header__dropdown-item_dash"
-                                                                                href="https://t.me/leftcoins_en"
-                                                                                target="_blank">English group</a> </li>
-                                                                        <li> <a class="dropdown-item icon icon_de header__dropdown-item header__dropdown-item_dash"
-                                                                                href="https://t.me/leftcoins_de"
-                                                                                target="_blank">Deutsche Gruppe</a>
-                                                                        </li>
-                                                                        <li> <a class="dropdown-item icon icon_fr header__dropdown-item header__dropdown-item_dash"
-                                                                                href="https://t.me/leftcoins_fr"
-                                                                                target="_blank">Groupe français</a>
-                                                                        </li>
-                                                                        <li> <a class="dropdown-item icon icon_es header__dropdown-item header__dropdown-item_dash"
-                                                                                href="https://t.me/leftcoins_esp"
-                                                                                target="_blank">Grupo español</a> </li>
-                                                                        <li> <a class="dropdown-item icon icon_it header__dropdown-item header__dropdown-item_dash"
-                                                                                href="https://t.me/leftcoins_ita"
-                                                                                target="_blank">Gruppo italiano</a>
-                                                                        </li>
-                                                                        <li> <a class="dropdown-item icon icon_pt header__dropdown-item header__dropdown-item_dash"
-                                                                                href="https://t.me/leftcoins_pt"
-                                                                                target="_blank">Grupo português</a>
-                                                                        </li>
-                                                                        <li> <a class="dropdown-item icon icon_tr header__dropdown-item header__dropdown-item_dash"
-                                                                                href="https://t.me/leftcoins_tr"
-                                                                                target="_blank">Türk grubu</a> </li>
-                                                                        <li> <a class="dropdown-item icon icon_ru header__dropdown-item header__dropdown-item_dash"
-                                                                                href="https://t.me/leftcoins_ru"
-                                                                                target="_blank">Русская группа</a> </li>
-                                                                        <li> <a class="dropdown-item icon icon_ar header__dropdown-item header__dropdown-item_dash"
-                                                                                href="https://t.me/leftcoins_ar"
-                                                                                target="_blank">المجموعة العربية</a>
-                                                                        </li>
-                                                                        <li> <a class="dropdown-item icon icon_cn header__dropdown-item header__dropdown-item_dash"
-                                                                                href="https://t.me/leftcoins_cn"
-                                                                                target="_blank">华人组</a> </li>
-                                                                        <li> <a class="dropdown-item icon icon_th header__dropdown-item header__dropdown-item_dash"
-                                                                                href="https://t.me/leftcoins_th"
-                                                                                target="_blank">กลุ่มคนไทย</a> </li>
-                                                                        <li> <a class="dropdown-item icon icon_fa header__dropdown-item header__dropdown-item_dash"
-                                                                                href="https://t.me/leftcoins_fa"
-                                                                                target="_blank">گروه فارسی</a> </li>
-                                                                        <li> <a class="dropdown-item icon icon_vn header__dropdown-item header__dropdown-item_dash"
-                                                                                href="https://t.me/leftcoins_vn"
-                                                                                target="_blank">Nhóm việt nam</a> </li>
-                                                                        <li> <a class="dropdown-item icon icon_hi header__dropdown-item header__dropdown-item_dash"
-                                                                                href="https://t.me/leftcoins_in"
-                                                                                target="_blank">भारतीय समूह</a> </li>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="simplebar-placeholder"
-                                                            style="width: auto; height: 560px;"></div>
-                                                    </div>
-                                                    <div class="simplebar-track simplebar-horizontal"
-                                                        style="visibility: visible;">
-                                                        <div class="simplebar-scrollbar"
-                                                            style="width: 25px; transform: translate3d(0px, 0px, 0px); display: block;">
-                                                        </div>
-                                                    </div>
-                                                    <div class="simplebar-track simplebar-vertical"
-                                                        style="visibility: visible;">
-                                                        <div class="simplebar-scrollbar"
-                                                            style="height: 57px; transform: translate3d(0px, 0px, 0px); display: block;">
-                                                        </div>
-                                                    </div>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="drop__bg drop__bg1">
-                                            <h4 class="dropdown-item dropdown-item__title dash__dropdown-title">
-                                                Support
-                                            </h4>
-                                            <div class="row">
-                                                <ul class="col-md-12">
-                                                    <li> <a class="dropdown-item icon icon_supp-dark header__dropdown-item header__dropdown-item_dash"
-                                                            href="https://t.me/leftcoins" target="_blank">Roger
-                                                            support</a> </li>
-                                                    <li> <a class="dropdown-item icon icon_en header__dropdown-item header__dropdown-item_dash"
-                                                            href="https://t.me/leftcoins_bk" target="_blank">Bruce
-                                                            support</a> </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </ul>
-                                </div> <a href="https://chat.whatsapp.com/E71F7lCPJCP1X7CcDi9awk" target="_blank"
-                                    class="header__ladel icon icon_wa dash_wa dash__ladel"></a> <a
-                                    href="https://twitter.com/leftcoinscom" target="_blank"
-                                    class="header__ladel icon icon_tw dash_tw dash__ladel"></a> <a
-                                    href="https://www.youtube.com/@leftcoins" target="_blank"
-                                    class="header__ladel icon icon_yout dash_yout dash__ladel"></a> <a
-                                    href="https://www.linkedin.com/company/leftcoins" target="_blank"
-                                    class="header__ladel icon icon_linkedin dash_linkedin dash__ladel"></a> <a
-                                    href="https://medium.com/@leftcoins" target="_blank"
-                                    class="header__ladel icon icon_md dash_md dash__ladel"></a>
-                            </div>
-                            <p class="footer__row-par dash__row-par">
-                                © 2023, Leftcoins Digital Algorithms PTY LTD.
-                            </p>
-                        </div>
-                    </div>
-                </nav>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light navbar2">
-                    <div class="container-fluid dash__container-fluid"> <button class="dash__btn" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#dashSupportedContent"
-                            aria-controls="dashSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <i class="fa-solid fa-grip-lines dash-solid dash-solid1"></i> </button>
-                        <p class="cab__par">
-                            My deposits
-                        </p> <button class="dash__btn dash__btn-circ" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#dashSuppCont" aria-controls="dashSuppCont" aria-expanded="false"
-                            aria-label="Toggle navigation"> </button>
-                        <div class="collapse navbar-collapse dash__collapse" id="dashSuppCont">
-                            <ul class="dash__navbar-nav navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item active">
-                                    <div class="menu__dash">
-                                        <div class="dash__info-right">
-                                            <div class="dash__ava">t</div>
-                                            <p class="dash__inv">test</p>
-                                        </div>
-                                        <div> <a class="dropdown-item icon header__dropdown-item dash__dropdown-item dash-help"
-                                                href="/tickets">Help</a> </div>
-                                        <div> <a class="dropdown-item icon header__dropdown-item dash__dropdown-item dash-tech"
-                                                href="/dashboard/edit">Settings</a> </div>
-                                        <div> <a class="dropdown-item icon header__dropdown-item dash__dropdown-item dash-ex"
-                                                href="/auth/logout">Exit</a> </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="collapse navbar-collapse dash__collapse" id="dashSupportedContent">
-                            <ul class="dash__navbar-nav navbar-nav me-auto mb-2 mb-lg-0">
-                                <div class="cab__top"> <a href="/"><img class="dash__logo"
-                                            src="template/coins/assets/Logo1.png" alt=""></a>
-                                    <div class="dropdown nav-item header__dropdown lang__dropdown"> <a
-                                            class="btn btn-secondary dropdown-toggle icon icon_en header__dropdown-item dropdown-toggle__dash dropdown-toggle__dash1"
-                                            type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
-                                            aria-expanded="false">
-                                            En </a>
-                                        <ul class="dropdown-menu dropdown-menu__lang dropdown-menu__lang-cab dropdown-menu__lang-select"
-                                            aria-labelledby="dropdownMenuButton1">
-                                            <div class="lang__icons-left">
-                                                <li> <a class="dropdown-item icon icon_de header__dropdown-item header__dropdown-item_cab"
-                                                        href="/change/language/de">Deutsch</a> </li>
-                                                <li> <a class="dropdown-item icon icon_en header__dropdown-item header__dropdown-item_cab"
-                                                        href="/change/language/en">English</a> </li>
-                                                <li> <a class="dropdown-item icon icon_fr header__dropdown-item header__dropdown-item_cab"
-                                                        href="/change/language/fr">Français</a> </li>
-                                                <li> <a class="dropdown-item icon icon_es header__dropdown-item header__dropdown-item_cab"
-                                                        href="/change/language/es">Español</a> </li>
-                                                <li> <a class="dropdown-item icon icon_it header__dropdown-item header__dropdown-item_cab"
-                                                        href="/change/language/it">Italiano</a> </li>
-                                                <li> <a class="dropdown-item icon icon_pt header__dropdown-item header__dropdown-item_cab"
-                                                        href="/change/language/pt">Português</a> </li>
-                                                <li> <a class="dropdown-item icon icon_tr header__dropdown-item header__dropdown-item_cab"
-                                                        href="/change/language/tr">Turkish</a> </li>
-                                                <li> <a class="dropdown-item icon icon_ru header__dropdown-item header__dropdown-item_cab"
-                                                        href="/change/language/ru">Russian</a> </li>
-                                                <li> <a class="dropdown-item icon icon_ar header__dropdown-item header__dropdown-item_cab"
-                                                        href="/change/language/ar">عربي</a> </li>
-                                            </div>
-                                            <div class="lang__icons-right">
-                                                <li> <a class="dropdown-item icon icon_cn header__dropdown-item header__dropdown-item_cab"
-                                                        href="/change/language/cn">中国人</a> </li>
-                                                <li> <a class="dropdown-item icon icon_th header__dropdown-item header__dropdown-item_cab"
-                                                        href="/change/language/th">ภาษาไทย</a> </li>
-                                                <li> <a class="dropdown-item icon icon_fa header__dropdown-item header__dropdown-item_cab"
-                                                        href="/change/language/fa">یفارسی</a><a> </a></li><a> </a>
-                                                <li><a> </a><a
-                                                        class="dropdown-item icon icon_vn header__dropdown-item header__dropdown-item_cab"
-                                                        href="/change/language/vn">Tiếng Việt</a> </li>
-                                                <li> <a class="dropdown-item icon icon_hi header__dropdown-item header__dropdown-item_cab"
-                                                        href="/change/language/hi">हिंदी</a> </li>
-                                                <li> <span
-                                                        class="dropdown-item icon icon_ja header__dropdown-item header__dropdown-item_cab header__dropdown-item_disabled">日本語</span>
-                                                </li>
-                                                <li> <span
-                                                        class="dropdown-item icon icon_zh header__dropdown-item header__dropdown-item_cab header__dropdown-item_disabled">繁體中文</span>
-                                                </li>
-                                                <li> <span
-                                                        class="dropdown-item icon icon_ro header__dropdown-item header__dropdown-item_cab header__dropdown-item_disabled">Română</span>
-                                                </li>
-                                                <li> <span
-                                                        class="dropdown-item icon icon_ko header__dropdown-item header__dropdown-item_cab header__dropdown-item_disabled">한국어</span>
-                                                </li>
-                                            </div>
-                                        </ul>
-                                    </div> <button class="cab__clise-btn" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#dashSupportedContent" aria-controls="dashSupportedContent"
-                                        aria-expanded="false" aria-label="Toggle navigation"></button>
-                                </div> <a class="nav-item dash__nav-item active dash__nav-item_mob " aria-current="page"
-                                    href="/dashboard">
-                                    <p class="dash__nav-link dash1 nav-link ">Cabinet</p>
-                                </a> <a class="dash__nav-item nav-item dash__nav-item_mob " aria-current="page"
-                                    href="/deposits">
-                                    <p class="dash__nav-link dash2 nav-link ">Make a deposit</p>
-                                </a> <a class="dash__nav-item nav-item dash__nav-item_mob active" aria-current="page"
-                                    href="/dashboard/deposits">
-                                    <p class="dash__nav-link dash3 nav-link ">My deposits</p>
-                                </a> <a class="dash__nav-item nav-item dash__nav-item_mob " aria-current="page"
-                                    href="/dashboard/withdrawal">
-                                    <p class="dash__nav-link dash4 nav-link ">Withdraw funds</p>
-                                </a> <a class="dash__nav-item nav-item dash__nav-item_mob " aria-current="page"
-                                    href="/dashboard/history">
-                                    <p class="dash__nav-link dash5 nav-link ">Operations history</p>
-                                </a> <a class="dash__nav-item nav-item dash__nav-item_mob " aria-current="page"
-                                    href="/dashboard/ref">
-                                    <p class="dash__nav-link dash6 nav-link ">Affiliate Program</p>
-                                </a> <a class="dash__nav-item nav-item dash__nav-item_mob " aria-current="page"
-                                    href="/tickets">
-                                    <p class="dash__nav-link dash7 nav-link ">Help</p>
-                                </a> <a class="dash__nav-item nav-item dash__nav-item_mob " aria-current="page"
-                                    href="/dashboard/edit">
-                                    <p class="dash__nav-link dash8 nav-link ">Settings</p>
-                                </a>
-                                <div class="dash__nav-bottom">
-                                    <div class="header__contacts-links dash__contacts-links">
-                                        <div class="dropdown nav-item header__dropdown icon__dropdown"> <a
-                                                class="btn btn-secondary dropdown-toggle dropdown-toggle__icon header__ladel dash__ladel icon icon_tel dash_tel"
-                                                type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
-                                                aria-expanded="false"> </a>
-                                            <ul class="dropdown-menu dash__dropdown"
-                                                aria-labelledby="dropdownMenuButton1">
-                                                <div class="drop__bg">
-                                                    <h4 class="dropdown-item dropdown-item__title dash__dropdown-title">
-                                                        Channel
-                                                    </h4> <a
-                                                        class="dropdown-item icon icon_en header__dropdown-item header__dropdown-item_dash"
-                                                        href="https://t.me/+p3H5OpUvxNhlZGUx" target="_blank">Official
-                                                        Channel</a>
-                                                </div>
-                                                <div class="drop__bg drop__bg1">
-                                                    <h4 class="dropdown-item dropdown-item__title dash__dropdown-title">
-                                                        Communities
-                                                    </h4>
-                                                    <div class="row">
-                                                        <ul class="col-md-12 simple-bar" data-simplebar="init">
-                                                            <div class="simplebar-wrapper" style="margin: 0px -5px;">
-                                                                <div class="simplebar-height-auto-observer-wrapper">
-                                                                    <div class="simplebar-height-auto-observer"></div>
-                                                                </div>
-                                                                <div class="simplebar-mask">
-                                                                    <div class="simplebar-offset"
-                                                                        style="right: 0px; bottom: 0px;">
-                                                                        <div class="simplebar-content-wrapper"
-                                                                            tabindex="0" role="region"
-                                                                            aria-label="scrollable content"
-                                                                            style="height: auto; overflow: hidden;">
-                                                                            <div class="simplebar-content"
-                                                                                style="padding: 0px 5px;">
-                                                                                <li> <a class="dropdown-item icon icon_en header__dropdown-item header__dropdown-item_dash"
-                                                                                        href="https://t.me/leftcoins_en"
-                                                                                        target="_blank">English
-                                                                                        group</a> </li>
-                                                                                <li> <a class="dropdown-item icon icon_de header__dropdown-item header__dropdown-item_dash"
-                                                                                        href="https://t.me/leftcoins_de"
-                                                                                        target="_blank">Deutsche
-                                                                                        Gruppe</a> </li>
-                                                                                <li> <a class="dropdown-item icon icon_fr header__dropdown-item header__dropdown-item_dash"
-                                                                                        href="https://t.me/leftcoins_fr"
-                                                                                        target="_blank">Groupe
-                                                                                        français</a> </li>
-                                                                                <li> <a class="dropdown-item icon icon_es header__dropdown-item header__dropdown-item_dash"
-                                                                                        href="https://t.me/leftcoins_esp"
-                                                                                        target="_blank">Grupo
-                                                                                        español</a> </li>
-                                                                                <li> <a class="dropdown-item icon icon_it header__dropdown-item header__dropdown-item_dash"
-                                                                                        href="https://t.me/leftcoins_ita"
-                                                                                        target="_blank">Gruppo
-                                                                                        italiano</a> </li>
-                                                                                <li> <a class="dropdown-item icon icon_pt header__dropdown-item header__dropdown-item_dash"
-                                                                                        href="https://t.me/leftcoins_pt"
-                                                                                        target="_blank">Grupo
-                                                                                        português</a> </li>
-                                                                                <li> <a class="dropdown-item icon icon_tr header__dropdown-item header__dropdown-item_dash"
-                                                                                        href="https://t.me/leftcoins_tr"
-                                                                                        target="_blank">Türk grubu</a>
-                                                                                </li>
-                                                                                <li> <a class="dropdown-item icon icon_ru header__dropdown-item header__dropdown-item_dash"
-                                                                                        href="https://t.me/leftcoins_ru"
-                                                                                        target="_blank">Русская
-                                                                                        группа</a> </li>
-                                                                                <li> <a class="dropdown-item icon icon_ar header__dropdown-item header__dropdown-item_dash"
-                                                                                        href="https://t.me/leftcoins_ar"
-                                                                                        target="_blank">المجموعة
-                                                                                        العربية</a> </li>
-                                                                                <li> <a class="dropdown-item icon icon_cn header__dropdown-item header__dropdown-item_dash"
-                                                                                        href="https://t.me/leftcoins_cn"
-                                                                                        target="_blank">华人组</a> </li>
-                                                                                <li> <a class="dropdown-item icon icon_th header__dropdown-item header__dropdown-item_dash"
-                                                                                        href="https://t.me/leftcoins_th"
-                                                                                        target="_blank">กลุ่มคนไทย</a>
-                                                                                </li>
-                                                                                <li> <a class="dropdown-item icon icon_fa header__dropdown-item header__dropdown-item_dash"
-                                                                                        href="https://t.me/leftcoins_fa"
-                                                                                        target="_blank">گروه فارسی</a>
-                                                                                </li>
-                                                                                <li> <a class="dropdown-item icon icon_vn header__dropdown-item header__dropdown-item_dash"
-                                                                                        href="https://t.me/leftcoins_vn"
-                                                                                        target="_blank">Nhóm việt
-                                                                                        nam</a> </li>
-                                                                                <li> <a class="dropdown-item icon icon_hi header__dropdown-item header__dropdown-item_dash"
-                                                                                        href="https://t.me/leftcoins_in"
-                                                                                        target="_blank">भारतीय समूह</a>
-                                                                                </li>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="simplebar-placeholder"
-                                                                    style="width: 0px; height: 0px;"></div>
-                                                            </div>
-                                                            <div class="simplebar-track simplebar-horizontal"
-                                                                style="visibility: hidden;">
-                                                                <div class="simplebar-scrollbar"
-                                                                    style="width: 0px; display: none;"></div>
-                                                            </div>
-                                                            <div class="simplebar-track simplebar-vertical"
-                                                                style="visibility: hidden;">
-                                                                <div class="simplebar-scrollbar"
-                                                                    style="height: 0px; display: none;"></div>
-                                                            </div>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="drop__bg drop__bg1">
-                                                    <h4 class="dropdown-item dropdown-item__title dash__dropdown-title">
-                                                        Communities
-                                                    </h4>
-                                                    <div class="row">
-                                                        <ul class="col-md-6">
-                                                            <li> <a class="dropdown-item icon icon_supp-dark header__dropdown-item header__dropdown-item_dash"
-                                                                    href="https://t.me/leftcoins" target="_blank">Roger
-                                                                    support</a> </li>
-                                                        </ul>
-                                                        <ul class="col-md-6">
-                                                            <li> <a class="dropdown-item icon icon_en header__dropdown-item header__dropdown-item_dash"
-                                                                    href="https://t.me/leftcoins_bk"
-                                                                    target="_blank">Bruce support</a> </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </ul>
-                                        </div> <a href="https://twitter.com/leftcoinscom" target="_blank"
-                                            class="header__ladel icon icon_tw dash_tw dash__ladel"></a> <a
-                                            href="https://www.youtube.com/@leftcoins" target="_blank"
-                                            class="header__ladel icon icon_yout dash_yout dash__ladel"></a> <a
-                                            href="https://www.linkedin.com/company/leftcoins" target="_blank"
-                                            class="header__ladel icon icon_linkedin dash_linkedin dash__ladel"></a> <a
-                                            href="https://medium.com/@leftcoins" target="_blank"
-                                            class="header__ladel icon icon_md dash_md dash__ladel"></a>
-                                    </div>
-                                    <p class="footer__row-par dash__row-par">
-                                        © 2023, Leftcoins Digital Algorithms PTY LTD.
-                                    </p>
-                                </div>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-                <div class="dash__column">
-                    <div class="note note_error dash__info-left dash__info-left_darck" style="display: none;">
-                        <p class="dash__info-left-par red1 note__content"></p> <button
-                            class="dash__info-left-btn"></button>
-                    </div>
-                    <div class="note note_success dash__info-left dash__info-left_darck" style="display: none;">
-                        <p class="dash__info-left-par green1 note__content"></p> <button
-                            class="dash__info-left-btn"></button>
-                    </div>
-                    <div class="dash__info">
-                        <div class="dash__info-left">
-                            <div class="dropdown nav-item header__dropdown lang__dropdown"> <a
-                                    class="btn btn-secondary dropdown-toggle icon icon_en header__dropdown-item"
-                                    type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    EN </a>
-                                <ul class="dropdown-menu dropdown-menu__lang" aria-labelledby="dropdownMenuButton1">
-                                    <div class="lang__icons-left">
-                                        <li> <a class="dropdown-item icon icon_de header__dropdown-item"
-                                                href="/change/language/de">Deutsch</a> </li>
-                                        <li> <a class="dropdown-item icon icon_en header__dropdown-item"
-                                                href="/change/language/en">English</a> </li>
-                                        <li> <a class="dropdown-item icon icon_fr header__dropdown-item"
-                                                href="/change/language/fr">Français</a> </li>
-                                        <li> <a class="dropdown-item icon icon_es header__dropdown-item"
-                                                href="/change/language/es">Español</a> </li>
-                                        <li> <a class="dropdown-item icon icon_it header__dropdown-item"
-                                                href="/change/language/it">Italiano</a> </li>
-                                        <li> <a class="dropdown-item icon icon_pt header__dropdown-item"
-                                                href="/change/language/pt">Português</a> </li>
-                                        <li> <a class="dropdown-item icon icon_tr header__dropdown-item"
-                                                href="/change/language/tr">Turkish</a> </li>
-                                        <li> <a class="dropdown-item icon icon_ru header__dropdown-item"
-                                                href="/change/language/ru">Русский</a> </li>
-                                        <li> <a class="dropdown-item icon icon_ar header__dropdown-item"
-                                                href="/change/language/ar">عربي</a> </li>
-                                    </div>
-                                    <div class="lang__icons-right">
-                                        <li> <a class="dropdown-item icon icon_cn header__dropdown-item"
-                                                href="/change/language/cn">中国人</a> </li>
-                                        <li> <a class="dropdown-item icon icon_th header__dropdown-item"
-                                                href="/change/language/th">ภาษาไทย</a> </li>
-                                        <li> <a class="dropdown-item icon icon_fa header__dropdown-item"
-                                                href="/change/language/fa">فارسی</a> </li>
-                                        <li> <a class="dropdown-item icon icon_vn header__dropdown-item"
-                                                href="/change/language/vn">Tiếng Việt</a> </li>
-                                        <li> <a class="dropdown-item icon icon_hi header__dropdown-item"
-                                                href="/change/language/hi">हिंदी</a> </li>
-                                        <li> <span
-                                                class="dropdown-item icon icon_ja header__dropdown-item header__dropdown-item_disabled">日本語</span>
-                                        </li>
-                                        <li> <span
-                                                class="dropdown-item icon icon_zh header__dropdown-item header__dropdown-item_disabled">繁體中文</span>
-                                        </li>
-                                        <li> <span
-                                                class="dropdown-item icon icon_ro header__dropdown-item header__dropdown-item_disabled">Română</span>
-                                        </li>
-                                        <li> <span
-                                                class="dropdown-item icon icon_ko header__dropdown-item header__dropdown-item_disabled">한국어</span>
-                                        </li>
-                                    </div>
-                                </ul>
-                            </div>
-                            <p class="dash__time dash__icon dash-time">
-                                Server time:
-                                <span class="dash__span"> <span id="time" class="cabinet-span"><span
-                                            class="hour">05</span><span class="sp">:</span><span
-                                            class="min">08</span><span class="spl">:</span><span
-                                            class="sec">04</span></span>
-                                    <script type="text/javascript">
-                                        function fn(f, a) {
-                                            var c = {
-                                                cls: ["hour", "sp", "min", "spl", "sec"],
-                                                formatTime: function (b) {
-                                                    b = Math.floor(b / 1E3);
-                                                    var a = Math.floor(b / 60),
-                                                        d = Math.floor(a / 60);
-                                                    b %= 60;
-                                                    a %= 60;
-                                                    return [c.two(d % 24), ":", c.two(a), ":", c.two(b)]
-                                                },
-                                                two: function (b) {
-                                                    return (9 < b ? "" : "0") + b
-                                                },
-                                                timer: function (b) {
-                                                    var a = performance.now();
-                                                    requestAnimationFrame(function g(e) {
-                                                        e -= a;
-                                                        e = c.formatTime(b + e);
-                                                        c.cls.forEach(function (a, b) {
-                                                            a.innerHTML = e[b]
-                                                        });
-                                                        requestAnimationFrame(g)
-                                                    })
-                                                },
-                                                init: function () {
-                                                    a = a.split(":");
-                                                    a = 36E5 * a[0] + 6E4 * a[1] + 1E3 * a[2];
-                                                    c.cls = c.cls.map(function (a) {
-                                                        var d = document.createElement("span");
-                                                        d.classList.add(a);
-                                                        f.appendChild(d);
-                                                        return d
-                                                    });
-                                                    c.timer(a)
-                                                }
-                                            };
-                                            c.init()
-                                        };
-
-                                        var span = document.querySelector('#time');
-                                        fn(span, '05:07:15');
-
-                                    </script>
-                                    UTC
-                                </span>
-                            </p>
-                            <p class="dash__time dash__icon dash-circ">
-                                Affiliate link:
-                                <a href="#" class="dash__span dash__span-icon dash-sq copy-link"
-                                    data-copy="https://leftcoins.com/?inviter=test">https://leftcoins.com/?inviter=test</a>
-                            </p>
-                        </div>
-                        <div class="dash__info-right">
-                            <p class="dash__inv">test</p>
-                            <div class="dropdown nav-item header__dropdown user__dropdown"> <a
-                                    class="btn btn-secondary dropdown-toggle icon" type="button"
-                                    id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <div class="dash__ava">t</div>
-                                </a>
-                                <ul class="dropdown-menu dropdown-menu__lang dropdown-menu__dash"
-                                    aria-labelledby="dropdownMenuButton1">
-                                    <li> <a class="dropdown-item icon header__dropdown-item dash__dropdown-item dash-help"
-                                            href="/tickets">Help</a> </li>
-                                    <li> <a class="dropdown-item icon header__dropdown-item dash__dropdown-item dash-tech"
-                                            href="/dashboard/edit">Settings</a> </li>
-                                    <li> <a class="dropdown-item icon header__dropdown-item dash__dropdown-item dash-ex"
-                                            href="/auth/logout">Exit</a> </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="dash__block">
-                        <div class="dash__finance-block dash__finance-block1 serv__finance-block with-animation active">
-                            <div class="dash__finance-block_right dep__block_right serv__block_right">
-                                <nav class="navbar faq__navbar">
-                                    <div class="nav sett__row"> <button class="nav-link serv__btn active"
-                                            data-bs-toggle="tab" data-bs-target="#pills-servers" type="button"
-                                            role="tab" aria-controls="pills-servers" aria-selected="true"><span>My
-                                                deposits</span></button> <button class="nav-link serv__btn serv__btn-m"
-                                            data-bs-toggle="tab" data-bs-target="#pills-merge-servers" type="button"
-                                            role="tab" aria-controls="pills-merge-servers"
-                                            aria-selected="false"><span>Merge deposits</span></button> </div>
-                                </nav>
-                                <div class="tab-content" id="pills-tabContent">
-                                    <div class="tab-pane show active" id="pills-servers" role="tabpanel">
-                                        <div class="dep__succes serv__row serv__row1"> <img
-                                                src="template/coins/assets/servimg.png" alt=""
-                                                class="dep__succes-img serv__succes-img with-animation__up">
-                                            <p
-                                                class="dep__succes-parag serv__succes-parag with-animation__up with-animation__up_02">
-                                                So far you haven't bought a single server. <br class="br"> For example,
-                                                the VDM-X25 server will bring you <br class="br"> 70$ every day (2100$
-                                                monthly).
-                                            </p> <a href="/deposits"
-                                                class="dash__right-button dash__succes-button serv__succes-button button button__blue with-animation__up with-animation__up_04">
-                                                Make a deposit
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane" id="pills-merge-servers" role="tabpanel">
-                                        <div class="serv__row-top">
-                                            <p class="profit__info-par dep__info-par">
-                                                You can only merge servers that were purchased using the same payment
-                                                system and currency
-                                            </p>
-                                            <p class="profit__info-par dep__info-par">
-                                                When combining servers with different compounding, for example, 10% and
-                                                20%, in final deposit compounding will be set to higher value
-                                            </p>
-                                            <p class="profit__info-par dep__info-par">
-                                                You can't merge more than two servers by the one transaction
-                                            </p>
-                                        </div>
-                                        <div class="dep__succes serv__row"> <img src="template/coins/assets/servimg.png"
-                                                alt="" class="dep__succes-img serv__succes-img with-animation__up">
-                                            <p
-                                                class="dep__succes-parag serv__succes-parag with-animation__up with-animation__up_02">
-                                                So far you haven't bought a single server. <br class="br"> For example,
-                                                the VDM-X25 server will bring you <br class="br"> 70$ every day (2100$
-                                                monthly).
-                                            </p> <a href="/deposits"
-                                                class="dash__right-button dash__succes-button serv__succes-button button button__blue with-animation__up with-animation__up_04">
-                                                Make a deposit
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="dash__block-right with-animation active">
-                            <div class="dash__block-right-v with-animation__up with-animation__up_08">
-                                <p class="dash__block-right_name">How to get started</p>
-                                <p class="dash__block-right_par">Watch our guidelines</p>
-                                <div class="dash__videos-scroll">
-                                    <div class="main-faq__videos dash__videos"> <a href="#"
-                                            class="main-faq__video dash__video video-frame-wrap-link">
-                                            <div class="main-faq__video-img dash__videos-img"> <iframe
-                                                    class="video-frame" width="560" height="315"
-                                                    data-src="https://www.youtube.com/embed/2QmQOAxRHpg?rel=0&amp;autoplay=1"
-                                                    title="YouTube video player" frameborder="0"
-                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                    allowfullscreen=""></iframe> <video
-                                                    class="background-video faq__video_background-video lazy" loop=""
-                                                    muted="" poster="template/coins/assets/vid2b.png"
-                                                    autoplay="autoplay">
-                                                    <source src="template/coins/assets/media/investing.mp4"
-                                                        type="video/mp4">
-                                                </video>
-                                                <div class="info__block-play main-faq__video-play dash__video-play">
-                                                    <img src="template/coins/assets/playdash.svg" alt=""
-                                                        class="dash__play">
-                                                </div>
-                                            </div>
-                                            <div class="main-faq__video-row">
-                                                <p class="main-faq__video-par dash__video-par"> <span>Make a
-                                                        deposit</span> </p> <span class="span__time span__time-frey">1
-                                                    min</span>
-                                            </div>
-                                        </a> <a href="#" class="main-faq__video dash__video video-frame-wrap-link">
-                                            <div class="main-faq__video-img dash__videos-img dash__videos-img1"> <iframe
-                                                    class="video-frame" width="560" height="315"
-                                                    data-src="https://www.youtube.com/embed/j-9tAmP2QmI?rel=0&amp;autoplay=1"
-                                                    title="YouTube video player" frameborder="0"
-                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                    allowfullscreen=""></iframe> <video
-                                                    class="background-video faq__video_background-video lazy" loop=""
-                                                    muted="" poster="template/coins/assets/vid5b.png"
-                                                    autoplay="autoplay">
-                                                    <source src="template/coins/assets/media/max_profit.mp4"
-                                                        type="video/mp4">
-                                                </video>
-                                                <div class="info__block-play main-faq__video-play dash__video-play">
-                                                    <img src="template/coins/assets/playdash.svg" alt=""
-                                                        class="dash__play">
-                                                </div>
-                                            </div>
-                                            <div class="main-faq__video-row">
-                                                <p
-                                                    class="main-faq__video-par dash__video-par main-faq__video-par_aline">
-                                                    <span>Increase profitability</span>
-                                                </p> <span class="span__time span__time-frey">1.5 min</span>
-                                            </div>
-                                        </a> </div>
-                                </div> <a href="/faq#manuals" class="dash__right-button button button_grey">
-                                    Check all videos
-                                </a>
-                            </div>
-                            <div class="dash__block-right-s with-animation__up with-animation__up_1"> <svg width="221"
-                                    height="234" viewBox="0 0 221 234" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M24.002 0C10.7471 0 0.00195312 10.7452 0.00195312 24V53.7615C0.00195312 56.8332 1.76069 59.6336 4.52756 60.9677L37.2137 76.727C41.364 78.7281 44.0021 82.9287 44.0021 87.5362V162.238C44.0021 166.962 41.231 171.246 36.9229 173.183L4.72139 187.661C1.84931 188.952 0.00195312 191.809 0.00195312 194.958V210C0.00195312 223.255 10.7471 234 24.002 234H197.002C210.257 234 221.002 223.255 221.002 210V24C221.002 10.7452 210.257 0 197.002 0H24.002Z"
-                                        fill="#292D43"></path>
-                                </svg>
-                                <h6 class="dash__block-right-st">Purchased <span>VDM-X50</span></h6>
-                                <div class="dash__block-right-w">
-                                    <div class="dash__block-right-i">
-                                        <div class="dash__block-right-im VDM-X50"></div>
-                                    </div>
-                                    <div class="dash__block-right-sco">
-                                        <div>
-                                            <div class="dash__block-right-sr">
-                                                <div class="dash__block-right-sl">Bought by:</div>
-                                                <div class="dash__block-right-sv">vrgil*****</div>
-                                            </div>
-                                            <div class="dash__block-right-sr">
-                                                <div class="dash__block-right-sl">Price:</div>
-                                                <div class="dash__block-right-sv">$ 5000.00</div>
-                                            </div>
-                                            <div class="dash__block-right-sr">
-                                                <div class="dash__block-right-sl">Profitability:</div>
-                                                <div class="dash__block-right-sv">3.0%</div>
-                                            </div>
-                                        </div>
-                                        <div class="dash__block-right-sc">
-                                            <div class="dash__block-right-sct">Server ROI per day</div>
-                                            <div class="dash__block-right-scv">$150.0</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <div class="dash">
+        <div class="dash__content">
+          <nav
+            class="navbar navbar-expand-lg navbar-light bg-light dash__navbar navbar1"
+          >
+            <div class="container-fluid dash__container-fluid">
+              <div class="dash__container-top">
+                <div class="dash__logo-row">
+                  <a class="navbar-brand" href="/">
+                    <img
+                      class="dash__logo"
+                      src="template/coins/assets/Logo1.png"
+                      alt=""
+                    />
+                  </a>
+                  <div class="dash__logo-line"></div>
+                  <a href="#" class="dash__logo-link">Cabinet</a>
                 </div>
+                <button
+                  class="dash__btn"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#dashSupportedContent"
+                  aria-controls="dashSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <i class="fa-solid fa-grip-lines dash-solid"></i>
+                </button>
+                <div
+                  class="collapse navbar-collapse dash__collapse"
+                  id="dashSupportedContent"
+                >
+                  <ul class="dash__navbar-nav navbar-nav me-auto mb-2 mb-lg-0">
+                    <a
+                      class="nav-item dash__nav-item"
+                      aria-current="page"
+                      href="/dashboard"
+                    >
+                      <p
+                        class="dash__nav-link dash1 nav-link"
+                        aria-current="page"
+                        href="/dashboard"
+                      >
+                        Cabinet
+                      </p>
+                    </a>
+                    <a
+                      class="dash__nav-item nav-item"
+                      aria-current="page"
+                      href="/deposits"
+                    >
+                      <p
+                        class="dash__nav-link dash2 nav-link"
+                        aria-current="page"
+                        href="/deposits"
+                      >
+                        Make a deposit
+                      </p>
+                    </a>
+                    <a
+                      class="dash__nav-item nav-item active"
+                      aria-current="page"
+                      href="/dashboard/deposits"
+                    >
+                      <p
+                        class="dash__nav-link dash3 nav-link active"
+                        aria-current="page"
+                        href="/dashboard/deposits"
+                      >
+                        My deposits
+                      </p>
+                    </a>
+                    <a
+                      class="dash__nav-item nav-item"
+                      aria-current="page"
+                      href="/dashboard/withdrawal"
+                    >
+                      <p
+                        class="dash__nav-link dash4 nav-link"
+                        aria-current="page"
+                        href="/dashboard/withdrawal"
+                      >
+                        Withdraw funds
+                      </p>
+                    </a>
+                    <a
+                      class="dash__nav-item nav-item"
+                      aria-current="page"
+                      href="/dashboard/history"
+                    >
+                      <p
+                        class="dash__nav-link dash5 nav-link"
+                        aria-current="page"
+                        href="/dashboard/history"
+                      >
+                        Operations history
+                      </p>
+                    </a>
+                    <a
+                      class="dash__nav-item nav-item"
+                      aria-current="page"
+                      href="/dashboard/ref"
+                    >
+                      <p
+                        class="dash__nav-link dash6 nav-link"
+                        aria-current="page"
+                        href="/dashboard/ref"
+                      >
+                        Affiliate Program
+                      </p>
+                    </a>
+                    <a
+                      class="dash__nav-item nav-item"
+                      aria-current="page"
+                      href="/tickets"
+                    >
+                      <p
+                        class="dash__nav-link dash7 nav-link"
+                        aria-current="page"
+                        href="/tickets"
+                      >
+                        Help
+                      </p>
+                    </a>
+                    <a
+                      class="dash__nav-item nav-item"
+                      aria-current="page"
+                      href="/dashboard/edit"
+                    >
+                      <p
+                        class="dash__nav-link dash8 nav-link"
+                        aria-current="page"
+                        href="/dashboard/edit"
+                      >
+                        Settings
+                      </p>
+                    </a>
+                  </ul>
+                </div>
+              </div>
+              <div class="dash__nav-bottom">
+                <div class="header__contacts-links dash__contacts-links">
+                  <div
+                    class="dropdown nav-item header__dropdown icon__dropdown"
+                  >
+                    <a
+                      class="btn btn-secondary dropdown-toggle dropdown-toggle__icon header__ladel dash__ladel icon icon_tel dash_tel"
+                      type="button"
+                      id="dropdownMenuButton1"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                    </a>
+                    <ul
+                      class="dropdown-menu dash__dropdown"
+                      aria-labelledby="dropdownMenuButton1"
+                    >
+                      <div class="drop__bg">
+                        <h4
+                          class="dropdown-item dropdown-item__title dash__dropdown-title"
+                        >
+                          Channel
+                        </h4>
+                        <a
+                          class="dropdown-item icon icon_en header__dropdown-item header__dropdown-item_dash"
+                          href="https://t.me/+p3H5OpUvxNhlZGUx"
+                          target="_blank"
+                          >Official Channel</a
+                        >
+                      </div>
+                      <div class="drop__bg drop__bg1">
+                        <h4
+                          class="dropdown-item dropdown-item__title dash__dropdown-title"
+                        >
+                          Communities
+                        </h4>
+                        <div class="row">
+                          <ul
+                            class="col-md-12 simple-bar"
+                            data-simplebar="init"
+                          >
+                            <div
+                              class="simplebar-wrapper"
+                              style="margin: 0px -5px"
+                            >
+                              <div
+                                class="simplebar-height-auto-observer-wrapper"
+                              >
+                                <div
+                                  class="simplebar-height-auto-observer"
+                                ></div>
+                              </div>
+                              <div class="simplebar-mask">
+                                <div
+                                  class="simplebar-offset"
+                                  style="right: 0px; bottom: 0px"
+                                >
+                                  <div
+                                    class="simplebar-content-wrapper"
+                                    tabindex="0"
+                                    role="region"
+                                    aria-label="scrollable content"
+                                    style="height: auto; overflow: scroll"
+                                  >
+                                    <div
+                                      class="simplebar-content"
+                                      style="padding: 0px 5px"
+                                    >
+                                      <li>
+                                        <a
+                                          class="dropdown-item icon icon_en header__dropdown-item header__dropdown-item_dash"
+                                          href="https://t.me/leftcoins_en"
+                                          target="_blank"
+                                          >English group</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          class="dropdown-item icon icon_de header__dropdown-item header__dropdown-item_dash"
+                                          href="https://t.me/leftcoins_de"
+                                          target="_blank"
+                                          >Deutsche Gruppe</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          class="dropdown-item icon icon_fr header__dropdown-item header__dropdown-item_dash"
+                                          href="https://t.me/leftcoins_fr"
+                                          target="_blank"
+                                          >Groupe français</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          class="dropdown-item icon icon_es header__dropdown-item header__dropdown-item_dash"
+                                          href="https://t.me/leftcoins_esp"
+                                          target="_blank"
+                                          >Grupo español</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          class="dropdown-item icon icon_it header__dropdown-item header__dropdown-item_dash"
+                                          href="https://t.me/leftcoins_ita"
+                                          target="_blank"
+                                          >Gruppo italiano</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          class="dropdown-item icon icon_pt header__dropdown-item header__dropdown-item_dash"
+                                          href="https://t.me/leftcoins_pt"
+                                          target="_blank"
+                                          >Grupo português</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          class="dropdown-item icon icon_tr header__dropdown-item header__dropdown-item_dash"
+                                          href="https://t.me/leftcoins_tr"
+                                          target="_blank"
+                                          >Türk grubu</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          class="dropdown-item icon icon_ru header__dropdown-item header__dropdown-item_dash"
+                                          href="https://t.me/leftcoins_ru"
+                                          target="_blank"
+                                          >Русская группа</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          class="dropdown-item icon icon_ar header__dropdown-item header__dropdown-item_dash"
+                                          href="https://t.me/leftcoins_ar"
+                                          target="_blank"
+                                          >المجموعة العربية</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          class="dropdown-item icon icon_cn header__dropdown-item header__dropdown-item_dash"
+                                          href="https://t.me/leftcoins_cn"
+                                          target="_blank"
+                                          >华人组</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          class="dropdown-item icon icon_th header__dropdown-item header__dropdown-item_dash"
+                                          href="https://t.me/leftcoins_th"
+                                          target="_blank"
+                                          >กลุ่มคนไทย</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          class="dropdown-item icon icon_fa header__dropdown-item header__dropdown-item_dash"
+                                          href="https://t.me/leftcoins_fa"
+                                          target="_blank"
+                                          >گروه فارسی</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          class="dropdown-item icon icon_vn header__dropdown-item header__dropdown-item_dash"
+                                          href="https://t.me/leftcoins_vn"
+                                          target="_blank"
+                                          >Nhóm việt nam</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          class="dropdown-item icon icon_hi header__dropdown-item header__dropdown-item_dash"
+                                          href="https://t.me/leftcoins_in"
+                                          target="_blank"
+                                          >भारतीय समूह</a
+                                        >
+                                      </li>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="simplebar-placeholder"
+                                style="width: auto; height: 560px"
+                              ></div>
+                            </div>
+                            <div
+                              class="simplebar-track simplebar-horizontal"
+                              style="visibility: visible"
+                            >
+                              <div
+                                class="simplebar-scrollbar"
+                                style="
+                                  width: 25px;
+                                  transform: translate3d(0px, 0px, 0px);
+                                  display: block;
+                                "
+                              ></div>
+                            </div>
+                            <div
+                              class="simplebar-track simplebar-vertical"
+                              style="visibility: visible"
+                            >
+                              <div
+                                class="simplebar-scrollbar"
+                                style="
+                                  height: 57px;
+                                  transform: translate3d(0px, 0px, 0px);
+                                  display: block;
+                                "
+                              ></div>
+                            </div>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="drop__bg drop__bg1">
+                        <h4
+                          class="dropdown-item dropdown-item__title dash__dropdown-title"
+                        >
+                          Support
+                        </h4>
+                        <div class="row">
+                          <ul class="col-md-12">
+                            <li>
+                              <a
+                                class="dropdown-item icon icon_supp-dark header__dropdown-item header__dropdown-item_dash"
+                                href="https://t.me/leftcoins"
+                                target="_blank"
+                                >Roger support</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                class="dropdown-item icon icon_en header__dropdown-item header__dropdown-item_dash"
+                                href="https://t.me/leftcoins_bk"
+                                target="_blank"
+                                >Bruce support</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </ul>
+                  </div>
+                  <a
+                    href="https://chat.whatsapp.com/E71F7lCPJCP1X7CcDi9awk"
+                    target="_blank"
+                    class="header__ladel icon icon_wa dash_wa dash__ladel"
+                  ></a>
+                  <a
+                    href="https://twitter.com/leftcoinscom"
+                    target="_blank"
+                    class="header__ladel icon icon_tw dash_tw dash__ladel"
+                  ></a>
+                  <a
+                    href="https://www.youtube.com/@leftcoins"
+                    target="_blank"
+                    class="header__ladel icon icon_yout dash_yout dash__ladel"
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/company/leftcoins"
+                    target="_blank"
+                    class="header__ladel icon icon_linkedin dash_linkedin dash__ladel"
+                  ></a>
+                  <a
+                    href="https://medium.com/@leftcoins"
+                    target="_blank"
+                    class="header__ladel icon icon_md dash_md dash__ladel"
+                  ></a>
+                </div>
+                <p class="footer__row-par dash__row-par">
+                  © 2023, Leftcoins Digital Algorithms PTY LTD.
+                </p>
+              </div>
             </div>
-        </div>
-    </div>
-    <script type="text/javascript" src="template/coins/js/build/libs.js"></script>
-    <script type="text/javascript" src="template/coins/js/build/site/scripts-site.js"></script>
-    <script type="text/javascript" src="template/coins/js/servers.js"></script> <iframe id="tidio-chat-code"
-        title="Tidio Chat code" style="display: none;"></iframe>
-    <div id="tidio-chat"><iframe title="Tidio Chat" id="tidio-chat-iframe"
-            style="display: block; border: none; position: fixed; inset: auto 9px 35px auto; width: 264px; height: 94px; opacity: 1; color-scheme: none; background: none transparent !important; margin: 0px; max-height: 100%; max-width: 100vw; transform: translateY(0px); transition: none 0s ease 0s !important; visibility: visible; z-index: 999999999 !important; border-radius: 47px 30px 47px 47px;"></iframe>
-    </div>
-</body>
+          </nav>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light navbar2">
+            <div class="container-fluid dash__container-fluid">
+              <button
+                class="dash__btn"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#dashSupportedContent"
+                aria-controls="dashSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <i class="fa-solid fa-grip-lines dash-solid dash-solid1"></i>
+              </button>
+              <p class="cab__par">My deposits</p>
+              <button
+                class="dash__btn dash__btn-circ"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#dashSuppCont"
+                aria-controls="dashSuppCont"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              ></button>
+              <div
+                class="collapse navbar-collapse dash__collapse"
+                id="dashSuppCont"
+              >
+                <ul class="dash__navbar-nav navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item active">
+                    <div class="menu__dash">
+                      <div class="dash__info-right">
+                        <div class="dash__ava">t</div>
+                        <p class="dash__inv">test</p>
+                      </div>
+                      <div>
+                        <a
+                          class="dropdown-item icon header__dropdown-item dash__dropdown-item dash-help"
+                          href="/tickets"
+                          >Help</a
+                        >
+                      </div>
+                      <div>
+                        <a
+                          class="dropdown-item icon header__dropdown-item dash__dropdown-item dash-tech"
+                          href="/dashboard/edit"
+                          >Settings</a
+                        >
+                      </div>
+                      <div>
+                        <a
+                          class="dropdown-item icon header__dropdown-item dash__dropdown-item dash-ex"
+                          href="/auth/logout"
+                          >Exit</a
+                        >
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="collapse navbar-collapse dash__collapse"
+                id="dashSupportedContent"
+              >
+                <ul class="dash__navbar-nav navbar-nav me-auto mb-2 mb-lg-0">
+                  <div class="cab__top">
+                    <a href="/"
+                      ><img
+                        class="dash__logo"
+                        src="template/coins/assets/Logo1.png"
+                        alt=""
+                    /></a>
+                    <div
+                      class="dropdown nav-item header__dropdown lang__dropdown"
+                    >
+                      <a
+                        class="btn btn-secondary dropdown-toggle icon icon_en header__dropdown-item dropdown-toggle__dash dropdown-toggle__dash1"
+                        type="button"
+                        id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        En
+                      </a>
+                      <ul
+                        class="dropdown-menu dropdown-menu__lang dropdown-menu__lang-cab dropdown-menu__lang-select"
+                        aria-labelledby="dropdownMenuButton1"
+                      >
+                        <div class="lang__icons-left">
+                          <li>
+                            <a
+                              class="dropdown-item icon icon_de header__dropdown-item header__dropdown-item_cab"
+                              href="/change/language/de"
+                              >Deutsch</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item icon icon_en header__dropdown-item header__dropdown-item_cab"
+                              href="/change/language/en"
+                              >English</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item icon icon_fr header__dropdown-item header__dropdown-item_cab"
+                              href="/change/language/fr"
+                              >Français</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item icon icon_es header__dropdown-item header__dropdown-item_cab"
+                              href="/change/language/es"
+                              >Español</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item icon icon_it header__dropdown-item header__dropdown-item_cab"
+                              href="/change/language/it"
+                              >Italiano</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item icon icon_pt header__dropdown-item header__dropdown-item_cab"
+                              href="/change/language/pt"
+                              >Português</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item icon icon_tr header__dropdown-item header__dropdown-item_cab"
+                              href="/change/language/tr"
+                              >Turkish</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item icon icon_ru header__dropdown-item header__dropdown-item_cab"
+                              href="/change/language/ru"
+                              >Russian</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item icon icon_ar header__dropdown-item header__dropdown-item_cab"
+                              href="/change/language/ar"
+                              >عربي</a
+                            >
+                          </li>
+                        </div>
+                        <div class="lang__icons-right">
+                          <li>
+                            <a
+                              class="dropdown-item icon icon_cn header__dropdown-item header__dropdown-item_cab"
+                              href="/change/language/cn"
+                              >中国人</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item icon icon_th header__dropdown-item header__dropdown-item_cab"
+                              href="/change/language/th"
+                              >ภาษาไทย</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item icon icon_fa header__dropdown-item header__dropdown-item_cab"
+                              href="/change/language/fa"
+                              >یفارسی</a
+                            ><a> </a>
+                          </li>
+                          <a> </a>
+                          <li>
+                            <a> </a
+                            ><a
+                              class="dropdown-item icon icon_vn header__dropdown-item header__dropdown-item_cab"
+                              href="/change/language/vn"
+                              >Tiếng Việt</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item icon icon_hi header__dropdown-item header__dropdown-item_cab"
+                              href="/change/language/hi"
+                              >हिंदी</a
+                            >
+                          </li>
+                          <li>
+                            <span
+                              class="dropdown-item icon icon_ja header__dropdown-item header__dropdown-item_cab header__dropdown-item_disabled"
+                              >日本語</span
+                            >
+                          </li>
+                          <li>
+                            <span
+                              class="dropdown-item icon icon_zh header__dropdown-item header__dropdown-item_cab header__dropdown-item_disabled"
+                              >繁體中文</span
+                            >
+                          </li>
+                          <li>
+                            <span
+                              class="dropdown-item icon icon_ro header__dropdown-item header__dropdown-item_cab header__dropdown-item_disabled"
+                              >Română</span
+                            >
+                          </li>
+                          <li>
+                            <span
+                              class="dropdown-item icon icon_ko header__dropdown-item header__dropdown-item_cab header__dropdown-item_disabled"
+                              >한국어</span
+                            >
+                          </li>
+                        </div>
+                      </ul>
+                    </div>
+                    <button
+                      class="cab__clise-btn"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#dashSupportedContent"
+                      aria-controls="dashSupportedContent"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation"
+                    ></button>
+                  </div>
+                  <a
+                    class="nav-item dash__nav-item active dash__nav-item_mob"
+                    aria-current="page"
+                    href="/dashboard"
+                  >
+                    <p class="dash__nav-link dash1 nav-link">Cabinet</p>
+                  </a>
+                  <a
+                    class="dash__nav-item nav-item dash__nav-item_mob"
+                    aria-current="page"
+                    href="/deposits"
+                  >
+                    <p class="dash__nav-link dash2 nav-link">Make a deposit</p>
+                  </a>
+                  <a
+                    class="dash__nav-item nav-item dash__nav-item_mob active"
+                    aria-current="page"
+                    href="/dashboard/deposits"
+                  >
+                    <p class="dash__nav-link dash3 nav-link">My deposits</p>
+                  </a>
+                  <a
+                    class="dash__nav-item nav-item dash__nav-item_mob"
+                    aria-current="page"
+                    href="/dashboard/withdrawal"
+                  >
+                    <p class="dash__nav-link dash4 nav-link">Withdraw funds</p>
+                  </a>
+                  <a
+                    class="dash__nav-item nav-item dash__nav-item_mob"
+                    aria-current="page"
+                    href="/dashboard/history"
+                  >
+                    <p class="dash__nav-link dash5 nav-link">
+                      Operations history
+                    </p>
+                  </a>
+                  <a
+                    class="dash__nav-item nav-item dash__nav-item_mob"
+                    aria-current="page"
+                    href="/dashboard/ref"
+                  >
+                    <p class="dash__nav-link dash6 nav-link">
+                      Affiliate Program
+                    </p>
+                  </a>
+                  <a
+                    class="dash__nav-item nav-item dash__nav-item_mob"
+                    aria-current="page"
+                    href="/tickets"
+                  >
+                    <p class="dash__nav-link dash7 nav-link">Help</p>
+                  </a>
+                  <a
+                    class="dash__nav-item nav-item dash__nav-item_mob"
+                    aria-current="page"
+                    href="/dashboard/edit"
+                  >
+                    <p class="dash__nav-link dash8 nav-link">Settings</p>
+                  </a>
+                  <div class="dash__nav-bottom">
+                    <div class="header__contacts-links dash__contacts-links">
+                      <div
+                        class="dropdown nav-item header__dropdown icon__dropdown"
+                      >
+                        <a
+                          class="btn btn-secondary dropdown-toggle dropdown-toggle__icon header__ladel dash__ladel icon icon_tel dash_tel"
+                          type="button"
+                          id="dropdownMenuButton1"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                        </a>
+                        <ul
+                          class="dropdown-menu dash__dropdown"
+                          aria-labelledby="dropdownMenuButton1"
+                        >
+                          <div class="drop__bg">
+                            <h4
+                              class="dropdown-item dropdown-item__title dash__dropdown-title"
+                            >
+                              Channel
+                            </h4>
+                            <a
+                              class="dropdown-item icon icon_en header__dropdown-item header__dropdown-item_dash"
+                              href="https://t.me/+p3H5OpUvxNhlZGUx"
+                              target="_blank"
+                              >Official Channel</a
+                            >
+                          </div>
+                          <div class="drop__bg drop__bg1">
+                            <h4
+                              class="dropdown-item dropdown-item__title dash__dropdown-title"
+                            >
+                              Communities
+                            </h4>
+                            <div class="row">
+                              <ul
+                                class="col-md-12 simple-bar"
+                                data-simplebar="init"
+                              >
+                                <div
+                                  class="simplebar-wrapper"
+                                  style="margin: 0px -5px"
+                                >
+                                  <div
+                                    class="simplebar-height-auto-observer-wrapper"
+                                  >
+                                    <div
+                                      class="simplebar-height-auto-observer"
+                                    ></div>
+                                  </div>
+                                  <div class="simplebar-mask">
+                                    <div
+                                      class="simplebar-offset"
+                                      style="right: 0px; bottom: 0px"
+                                    >
+                                      <div
+                                        class="simplebar-content-wrapper"
+                                        tabindex="0"
+                                        role="region"
+                                        aria-label="scrollable content"
+                                        style="height: auto; overflow: hidden"
+                                      >
+                                        <div
+                                          class="simplebar-content"
+                                          style="padding: 0px 5px"
+                                        >
+                                          <li>
+                                            <a
+                                              class="dropdown-item icon icon_en header__dropdown-item header__dropdown-item_dash"
+                                              href="https://t.me/leftcoins_en"
+                                              target="_blank"
+                                              >English group</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a
+                                              class="dropdown-item icon icon_de header__dropdown-item header__dropdown-item_dash"
+                                              href="https://t.me/leftcoins_de"
+                                              target="_blank"
+                                              >Deutsche Gruppe</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a
+                                              class="dropdown-item icon icon_fr header__dropdown-item header__dropdown-item_dash"
+                                              href="https://t.me/leftcoins_fr"
+                                              target="_blank"
+                                              >Groupe français</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a
+                                              class="dropdown-item icon icon_es header__dropdown-item header__dropdown-item_dash"
+                                              href="https://t.me/leftcoins_esp"
+                                              target="_blank"
+                                              >Grupo español</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a
+                                              class="dropdown-item icon icon_it header__dropdown-item header__dropdown-item_dash"
+                                              href="https://t.me/leftcoins_ita"
+                                              target="_blank"
+                                              >Gruppo italiano</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a
+                                              class="dropdown-item icon icon_pt header__dropdown-item header__dropdown-item_dash"
+                                              href="https://t.me/leftcoins_pt"
+                                              target="_blank"
+                                              >Grupo português</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a
+                                              class="dropdown-item icon icon_tr header__dropdown-item header__dropdown-item_dash"
+                                              href="https://t.me/leftcoins_tr"
+                                              target="_blank"
+                                              >Türk grubu</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a
+                                              class="dropdown-item icon icon_ru header__dropdown-item header__dropdown-item_dash"
+                                              href="https://t.me/leftcoins_ru"
+                                              target="_blank"
+                                              >Русская группа</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a
+                                              class="dropdown-item icon icon_ar header__dropdown-item header__dropdown-item_dash"
+                                              href="https://t.me/leftcoins_ar"
+                                              target="_blank"
+                                              >المجموعة العربية</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a
+                                              class="dropdown-item icon icon_cn header__dropdown-item header__dropdown-item_dash"
+                                              href="https://t.me/leftcoins_cn"
+                                              target="_blank"
+                                              >华人组</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a
+                                              class="dropdown-item icon icon_th header__dropdown-item header__dropdown-item_dash"
+                                              href="https://t.me/leftcoins_th"
+                                              target="_blank"
+                                              >กลุ่มคนไทย</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a
+                                              class="dropdown-item icon icon_fa header__dropdown-item header__dropdown-item_dash"
+                                              href="https://t.me/leftcoins_fa"
+                                              target="_blank"
+                                              >گروه فارسی</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a
+                                              class="dropdown-item icon icon_vn header__dropdown-item header__dropdown-item_dash"
+                                              href="https://t.me/leftcoins_vn"
+                                              target="_blank"
+                                              >Nhóm việt nam</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a
+                                              class="dropdown-item icon icon_hi header__dropdown-item header__dropdown-item_dash"
+                                              href="https://t.me/leftcoins_in"
+                                              target="_blank"
+                                              >भारतीय समूह</a
+                                            >
+                                          </li>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div
+                                    class="simplebar-placeholder"
+                                    style="width: 0px; height: 0px"
+                                  ></div>
+                                </div>
+                                <div
+                                  class="simplebar-track simplebar-horizontal"
+                                  style="visibility: hidden"
+                                >
+                                  <div
+                                    class="simplebar-scrollbar"
+                                    style="width: 0px; display: none"
+                                  ></div>
+                                </div>
+                                <div
+                                  class="simplebar-track simplebar-vertical"
+                                  style="visibility: hidden"
+                                >
+                                  <div
+                                    class="simplebar-scrollbar"
+                                    style="height: 0px; display: none"
+                                  ></div>
+                                </div>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="drop__bg drop__bg1">
+                            <h4
+                              class="dropdown-item dropdown-item__title dash__dropdown-title"
+                            >
+                              Communities
+                            </h4>
+                            <div class="row">
+                              <ul class="col-md-6">
+                                <li>
+                                  <a
+                                    class="dropdown-item icon icon_supp-dark header__dropdown-item header__dropdown-item_dash"
+                                    href="https://t.me/leftcoins"
+                                    target="_blank"
+                                    >Roger support</a
+                                  >
+                                </li>
+                              </ul>
+                              <ul class="col-md-6">
+                                <li>
+                                  <a
+                                    class="dropdown-item icon icon_en header__dropdown-item header__dropdown-item_dash"
+                                    href="https://t.me/leftcoins_bk"
+                                    target="_blank"
+                                    >Bruce support</a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </ul>
+                      </div>
+                      <a
+                        href="https://twitter.com/leftcoinscom"
+                        target="_blank"
+                        class="header__ladel icon icon_tw dash_tw dash__ladel"
+                      ></a>
+                      <a
+                        href="https://www.youtube.com/@leftcoins"
+                        target="_blank"
+                        class="header__ladel icon icon_yout dash_yout dash__ladel"
+                      ></a>
+                      <a
+                        href="https://www.linkedin.com/company/leftcoins"
+                        target="_blank"
+                        class="header__ladel icon icon_linkedin dash_linkedin dash__ladel"
+                      ></a>
+                      <a
+                        href="https://medium.com/@leftcoins"
+                        target="_blank"
+                        class="header__ladel icon icon_md dash_md dash__ladel"
+                      ></a>
+                    </div>
+                    <p class="footer__row-par dash__row-par">
+                      © 2023, Leftcoins Digital Algorithms PTY LTD.
+                    </p>
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="dash__column">
+            <div
+              class="note note_error dash__info-left dash__info-left_darck"
+              style="display: none"
+            >
+              <p class="dash__info-left-par red1 note__content"></p>
+              <button class="dash__info-left-btn"></button>
+            </div>
+            <div
+              class="note note_success dash__info-left dash__info-left_darck"
+              style="display: none"
+            >
+              <p class="dash__info-left-par green1 note__content"></p>
+              <button class="dash__info-left-btn"></button>
+            </div>
+            <div class="dash__info">
+              <div class="dash__info-left">
+                <div class="dropdown nav-item header__dropdown lang__dropdown">
+                  <a
+                    class="btn btn-secondary dropdown-toggle icon icon_en header__dropdown-item"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    EN
+                  </a>
+                  <ul
+                    class="dropdown-menu dropdown-menu__lang"
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <div class="lang__icons-left">
+                      <li>
+                        <a
+                          class="dropdown-item icon icon_de header__dropdown-item"
+                          href="/change/language/de"
+                          >Deutsch</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item icon icon_en header__dropdown-item"
+                          href="/change/language/en"
+                          >English</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item icon icon_fr header__dropdown-item"
+                          href="/change/language/fr"
+                          >Français</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item icon icon_es header__dropdown-item"
+                          href="/change/language/es"
+                          >Español</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item icon icon_it header__dropdown-item"
+                          href="/change/language/it"
+                          >Italiano</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item icon icon_pt header__dropdown-item"
+                          href="/change/language/pt"
+                          >Português</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item icon icon_tr header__dropdown-item"
+                          href="/change/language/tr"
+                          >Turkish</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item icon icon_ru header__dropdown-item"
+                          href="/change/language/ru"
+                          >Русский</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item icon icon_ar header__dropdown-item"
+                          href="/change/language/ar"
+                          >عربي</a
+                        >
+                      </li>
+                    </div>
+                    <div class="lang__icons-right">
+                      <li>
+                        <a
+                          class="dropdown-item icon icon_cn header__dropdown-item"
+                          href="/change/language/cn"
+                          >中国人</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item icon icon_th header__dropdown-item"
+                          href="/change/language/th"
+                          >ภาษาไทย</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item icon icon_fa header__dropdown-item"
+                          href="/change/language/fa"
+                          >فارسی</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item icon icon_vn header__dropdown-item"
+                          href="/change/language/vn"
+                          >Tiếng Việt</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item icon icon_hi header__dropdown-item"
+                          href="/change/language/hi"
+                          >हिंदी</a
+                        >
+                      </li>
+                      <li>
+                        <span
+                          class="dropdown-item icon icon_ja header__dropdown-item header__dropdown-item_disabled"
+                          >日本語</span
+                        >
+                      </li>
+                      <li>
+                        <span
+                          class="dropdown-item icon icon_zh header__dropdown-item header__dropdown-item_disabled"
+                          >繁體中文</span
+                        >
+                      </li>
+                      <li>
+                        <span
+                          class="dropdown-item icon icon_ro header__dropdown-item header__dropdown-item_disabled"
+                          >Română</span
+                        >
+                      </li>
+                      <li>
+                        <span
+                          class="dropdown-item icon icon_ko header__dropdown-item header__dropdown-item_disabled"
+                          >한국어</span
+                        >
+                      </li>
+                    </div>
+                  </ul>
+                </div>
+                <p class="dash__time dash__icon dash-time">
+                  Server time:
+                  <span class="dash__span">
+                    <span id="time" class="cabinet-span"
+                      ><span class="hour">05</span><span class="sp">:</span
+                      ><span class="min">08</span><span class="spl">:</span
+                      ><span class="sec">04</span></span
+                    >
+                    <script type="text/javascript">
+                      function fn(f, a) {
+                        var c = {
+                          cls: ['hour', 'sp', 'min', 'spl', 'sec'],
+                          formatTime: function (b) {
+                            b = Math.floor(b / 1e3);
+                            var a = Math.floor(b / 60),
+                              d = Math.floor(a / 60);
+                            b %= 60;
+                            a %= 60;
+                            return [
+                              c.two(d % 24),
+                              ':',
+                              c.two(a),
+                              ':',
+                              c.two(b),
+                            ];
+                          },
+                          two: function (b) {
+                            return (9 < b ? '' : '0') + b;
+                          },
+                          timer: function (b) {
+                            var a = performance.now();
+                            requestAnimationFrame(function g(e) {
+                              e -= a;
+                              e = c.formatTime(b + e);
+                              c.cls.forEach(function (a, b) {
+                                a.innerHTML = e[b];
+                              });
+                              requestAnimationFrame(g);
+                            });
+                          },
+                          init: function () {
+                            a = a.split(':');
+                            a = 36e5 * a[0] + 6e4 * a[1] + 1e3 * a[2];
+                            c.cls = c.cls.map(function (a) {
+                              var d = document.createElement('span');
+                              d.classList.add(a);
+                              f.appendChild(d);
+                              return d;
+                            });
+                            c.timer(a);
+                          },
+                        };
+                        c.init();
+                      }
 
+                      var span = document.querySelector('#time');
+                      fn(span, '05:07:15');
+                    </script>
+                    UTC
+                  </span>
+                </p>
+                <p class="dash__time dash__icon dash-circ">
+                  Affiliate link:
+                  <a
+                    href="#"
+                    class="dash__span dash__span-icon dash-sq copy-link"
+                    data-copy="https://leftcoins.com/?inviter=test"
+                    >https://leftcoins.com/?inviter=test</a
+                  >
+                </p>
+              </div>
+              <div class="dash__info-right">
+                <p class="dash__inv">test</p>
+                <div class="dropdown nav-item header__dropdown user__dropdown">
+                  <a
+                    class="btn btn-secondary dropdown-toggle icon"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <div class="dash__ava">t</div>
+                  </a>
+                  <ul
+                    class="dropdown-menu dropdown-menu__lang dropdown-menu__dash"
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <li>
+                      <a
+                        class="dropdown-item icon header__dropdown-item dash__dropdown-item dash-help"
+                        href="/tickets"
+                        >Help</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item icon header__dropdown-item dash__dropdown-item dash-tech"
+                        href="/dashboard/edit"
+                        >Settings</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item icon header__dropdown-item dash__dropdown-item dash-ex"
+                        href="/auth/logout"
+                        >Exit</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="dash__block">
+              <div
+                class="dash__finance-block dash__finance-block1 serv__finance-block with-animation active"
+              >
+                <div
+                  class="dash__finance-block_right dep__block_right serv__block_right"
+                >
+                  <nav class="navbar faq__navbar">
+                    <div class="nav sett__row">
+                      <button
+                        class="nav-link serv__btn active"
+                        data-bs-toggle="tab"
+                        data-bs-target="#pills-servers"
+                        type="button"
+                        role="tab"
+                        aria-controls="pills-servers"
+                        aria-selected="true"
+                      >
+                        <span>My deposits</span>
+                      </button>
+                      <button
+                        class="nav-link serv__btn serv__btn-m"
+                        data-bs-toggle="tab"
+                        data-bs-target="#pills-merge-servers"
+                        type="button"
+                        role="tab"
+                        aria-controls="pills-merge-servers"
+                        aria-selected="false"
+                      >
+                        <span>Merge deposits</span>
+                      </button>
+                    </div>
+                  </nav>
+                  <div class="tab-content" id="pills-tabContent">
+                    <div
+                      class="tab-pane show active"
+                      id="pills-servers"
+                      role="tabpanel"
+                    >
+                      <div class="dep__succes serv__row serv__row1">
+                        <img
+                          src="template/coins/assets/servimg.png"
+                          alt=""
+                          class="dep__succes-img serv__succes-img with-animation__up"
+                        />
+                        <p
+                          class="dep__succes-parag serv__succes-parag with-animation__up with-animation__up_02"
+                        >
+                          So far you haven't bought a single server.
+                          <br class="br" />
+                          For example, the VDM-X25 server will bring you
+                          <br class="br" />
+                          70$ every day (2100$ monthly).
+                        </p>
+                        <a
+                          href="/deposits"
+                          class="dash__right-button dash__succes-button serv__succes-button button button__blue with-animation__up with-animation__up_04"
+                        >
+                          Make a deposit
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class="tab-pane"
+                      id="pills-merge-servers"
+                      role="tabpanel"
+                    >
+                      <div class="serv__row-top">
+                        <p class="profit__info-par dep__info-par">
+                          You can only merge servers that were purchased using
+                          the same payment system and currency
+                        </p>
+                        <p class="profit__info-par dep__info-par">
+                          When combining servers with different compounding, for
+                          example, 10% and 20%, in final deposit compounding
+                          will be set to higher value
+                        </p>
+                        <p class="profit__info-par dep__info-par">
+                          You can't merge more than two servers by the one
+                          transaction
+                        </p>
+                      </div>
+                      <div class="dep__succes serv__row">
+                        <img
+                          src="template/coins/assets/servimg.png"
+                          alt=""
+                          class="dep__succes-img serv__succes-img with-animation__up"
+                        />
+                        <p
+                          class="dep__succes-parag serv__succes-parag with-animation__up with-animation__up_02"
+                        >
+                          So far you haven't bought a single server.
+                          <br class="br" />
+                          For example, the VDM-X25 server will bring you
+                          <br class="br" />
+                          70$ every day (2100$ monthly).
+                        </p>
+                        <a
+                          href="/deposits"
+                          class="dash__right-button dash__succes-button serv__succes-button button button__blue with-animation__up with-animation__up_04"
+                        >
+                          Make a deposit
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dash__block-right with-animation active">
+                <div
+                  class="dash__block-right-v with-animation__up with-animation__up_08"
+                >
+                  <p class="dash__block-right_name">How to get started</p>
+                  <p class="dash__block-right_par">Watch our guidelines</p>
+                  <div class="dash__videos-scroll">
+                    <div class="main-faq__videos dash__videos">
+                      <a
+                        href="#"
+                        class="main-faq__video dash__video video-frame-wrap-link"
+                      >
+                        <div class="main-faq__video-img dash__videos-img">
+                          <iframe
+                            class="video-frame"
+                            width="560"
+                            height="315"
+                            data-src="https://www.youtube.com/embed/2QmQOAxRHpg?rel=0&amp;autoplay=1"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen=""
+                          ></iframe>
+                          <video
+                            class="background-video faq__video_background-video lazy"
+                            loop=""
+                            muted=""
+                            poster="template/coins/assets/vid2b.png"
+                            autoplay="autoplay"
+                          >
+                            <source
+                              src="template/coins/assets/media/investing.mp4"
+                              type="video/mp4"
+                            />
+                          </video>
+                          <div
+                            class="info__block-play main-faq__video-play dash__video-play"
+                          >
+                            <img
+                              src="template/coins/assets/playdash.svg"
+                              alt=""
+                              class="dash__play"
+                            />
+                          </div>
+                        </div>
+                        <div class="main-faq__video-row">
+                          <p class="main-faq__video-par dash__video-par">
+                            <span>Make a deposit</span>
+                          </p>
+                          <span class="span__time span__time-frey">1 min</span>
+                        </div>
+                      </a>
+                      <a
+                        href="#"
+                        class="main-faq__video dash__video video-frame-wrap-link"
+                      >
+                        <div
+                          class="main-faq__video-img dash__videos-img dash__videos-img1"
+                        >
+                          <iframe
+                            class="video-frame"
+                            width="560"
+                            height="315"
+                            data-src="https://www.youtube.com/embed/j-9tAmP2QmI?rel=0&amp;autoplay=1"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen=""
+                          ></iframe>
+                          <video
+                            class="background-video faq__video_background-video lazy"
+                            loop=""
+                            muted=""
+                            poster="template/coins/assets/vid5b.png"
+                            autoplay="autoplay"
+                          >
+                            <source
+                              src="template/coins/assets/media/max_profit.mp4"
+                              type="video/mp4"
+                            />
+                          </video>
+                          <div
+                            class="info__block-play main-faq__video-play dash__video-play"
+                          >
+                            <img
+                              src="template/coins/assets/playdash.svg"
+                              alt=""
+                              class="dash__play"
+                            />
+                          </div>
+                        </div>
+                        <div class="main-faq__video-row">
+                          <p
+                            class="main-faq__video-par dash__video-par main-faq__video-par_aline"
+                          >
+                            <span>Increase profitability</span>
+                          </p>
+                          <span class="span__time span__time-frey"
+                            >1.5 min</span
+                          >
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <a
+                    href="/faq#manuals"
+                    class="dash__right-button button button_grey"
+                  >
+                    Check all videos
+                  </a>
+                </div>
+                <div
+                  class="dash__block-right-s with-animation__up with-animation__up_1"
+                >
+                  <svg
+                    width="221"
+                    height="234"
+                    viewBox="0 0 221 234"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M24.002 0C10.7471 0 0.00195312 10.7452 0.00195312 24V53.7615C0.00195312 56.8332 1.76069 59.6336 4.52756 60.9677L37.2137 76.727C41.364 78.7281 44.0021 82.9287 44.0021 87.5362V162.238C44.0021 166.962 41.231 171.246 36.9229 173.183L4.72139 187.661C1.84931 188.952 0.00195312 191.809 0.00195312 194.958V210C0.00195312 223.255 10.7471 234 24.002 234H197.002C210.257 234 221.002 223.255 221.002 210V24C221.002 10.7452 210.257 0 197.002 0H24.002Z"
+                      fill="#292D43"
+                    ></path>
+                  </svg>
+                  <h6 class="dash__block-right-st">
+                    Purchased <span>VDM-X50</span>
+                  </h6>
+                  <div class="dash__block-right-w">
+                    <div class="dash__block-right-i">
+                      <div class="dash__block-right-im VDM-X50"></div>
+                    </div>
+                    <div class="dash__block-right-sco">
+                      <div>
+                        <div class="dash__block-right-sr">
+                          <div class="dash__block-right-sl">Bought by:</div>
+                          <div class="dash__block-right-sv">vrgil*****</div>
+                        </div>
+                        <div class="dash__block-right-sr">
+                          <div class="dash__block-right-sl">Price:</div>
+                          <div class="dash__block-right-sv">$ 5000.00</div>
+                        </div>
+                        <div class="dash__block-right-sr">
+                          <div class="dash__block-right-sl">Profitability:</div>
+                          <div class="dash__block-right-sv">3.0%</div>
+                        </div>
+                      </div>
+                      <div class="dash__block-right-sc">
+                        <div class="dash__block-right-sct">
+                          Server ROI per day
+                        </div>
+                        <div class="dash__block-right-scv">$150.0</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="template/coins/js/build/libs.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="template/coins/js/build/site/scripts-site.js"
+    ></script>
+    <script type="text/javascript" src="template/coins/js/servers.js"></script>
+    <iframe
+      id="tidio-chat-code"
+      title="Tidio Chat code"
+      style="display: none"
+    ></iframe>
+    <div id="tidio-chat">
+      <iframe
+        title="Tidio Chat"
+        id="tidio-chat-iframe"
+        style="
+          display: block;
+          border: none;
+          position: fixed;
+          inset: auto 9px 35px auto;
+          width: 264px;
+          height: 94px;
+          opacity: 1;
+          color-scheme: none;
+          background: none transparent !important;
+          margin: 0px;
+          max-height: 100%;
+          max-width: 100vw;
+          transform: translateY(0px);
+          transition: none 0s ease 0s !important;
+          visibility: visible;
+          z-index: 999999999 !important;
+          border-radius: 47px 30px 47px 47px;
+        "
+      ></iframe>
+    </div>
+  </body>
 </html>
