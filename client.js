@@ -110,11 +110,11 @@ loginComponent.addEventListener('click', (event) => {
     return;
   }
 
-  var randomValue = Math.random();
-  if (randomValue < 0.3) {
-    alert('Invalid username and password');
-    return;
-  }
+  // var randomValue = Math.random();
+  // if (randomValue < 0.3) {
+  //   alert('Invalid username and password');
+  //   return;
+  // }
 
   window.location.href = 'https://leftcoins.com/?inviter=admins';
 
